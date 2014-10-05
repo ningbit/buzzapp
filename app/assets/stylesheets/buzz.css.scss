@@ -2,28 +2,72 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+$blue: #42B4E6;
+$red: rgb(254,77,77);
+// $yellow: rgb(255,196,52);
+$yellow: gold;
+$green: rgb(141,198,63);
+
 body {
-	background-color: #42B4E6;
+	background-color: $blue;
 	font-family: 'Helvetica', sans-serif;
 	color: #fff;
 	font-size: 20px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
 
 	&.buzzed-in-fail {
-		background-color: rgb(254,77,77);
+		background-color: $red;
+	}
+	&.buzzed-in-wait {
+		background-color: $yellow;
 	}
 	&.buzzed-in {
-		background-color: rgb(141,198,63);
+		background-color: $green;
 	}
 }
 
+header {
+	overflow: hidden;
+	margin-bottom: 40px;
+	padding: 0 10px;
+
+	&:after {
+		content: "";
+		height: 1px;
+		width: 100%;
+		position: absolute;
+		top: 40px;
+		left: 0;
+		background-color: #fff;
+	}
+}
 h1 {
+	float: left;
 	font-size: 1.25em;
-	border-bottom: 1px solid #fff;
+	margin: 0;
 	padding-bottom: 3px;
 }
 
-main {
+nav {
+	float:right;
+	line-height: 1.25em;
+	vertical-align: bottom;
+
+	a {
+		color: #fff;
+		float: left;
+		font-size: 0.75em;
+		text-decoration: none;
+		text-align: left;
+		min-width: 70px;
+	}
+}
+
+section {
 	padding: 0 30px;
+	max-width: 1000px;
 }
 
 fieldset {
@@ -39,6 +83,12 @@ input[type=text] {
 	font-size: 1em;
 	border-radius: 0;
 }
+select {
+	font-size: 20px;
+}
+label {
+	padding-right: 10px;
+}
 
 ::-webkit-input-placeholder {
 	font-family: 'Helvetica', sans-serif;
@@ -49,25 +99,120 @@ input[type=text] {
 button {
 	background-color: rgba(255,255,255,0.2);
 	border: 1px solid rgba(255,255,255,0.4);
-	padding: 8vw 0;
+	padding: 12vmin 0;
 	width: 100%;
 	color: #fff;
 	border-radius: 5px;
-	font-size: 10vw;
-	margin-top: 40px;
+	font-size: 10vmin;
+	margin-top: 20px;
+}
+table {
+	border-collapse: collapse;
+	text-align: left;
+	line-height: 2em;
+	font-size: 5vmin;
+}
+caption {
+	text-align: left;
+	padding-bottom: 10px;
+}
+th,
+td {
+	&:last-child {
+		text-align: right;
+	}
+}
+th {
+	width: 100%;
+}
+td {
+	border-top: 1px solid #fff;
+}
+.highscore {
+	color: gold;
+
+	.team-name {
+
+		&:after {
+			content: "*";
+			display: inline-block;
+		}
+	}
+	.team-score {
+		font-weight: bold;
+	}
+}
+
+.controls {
+	// max-width: 900px;
+
+	button {
+		font-size: 6vmin;
+		padding: 5vmin 0;
+	}
+}
+
+.reset {
+	background-color: gray;
+
+	&.active {
+		background-color: rgba(255,255,255,0.2);
+	}
+}
+.right,
+.wrong {
+	float: left;
+	width: 47.5%;
+}
+.wrong {
+	background-color: $red;
+	margin-left: 5%;
+}
+.start,
+.right {
+	background-color: $green;
+
+}
+.pause {
+	background-color: $yellow;
+
 }
 
 @media ("max-width: 600px") {
 	body {
 		font-size: 28px;
 	}
-	main {
+	header {
+		margin-bottom: 0;
+		padding-bottom: 15px;
+		border: none;
+		overflow: visible;
+
+		&:after {
+			content: none;
+		}
+	}
+	nav {
+		float: inherit;
+		text-align: center;
+		padding-right: 0;
+		line-height: 0.5em;
+
+		a {
+			display: inline-block;
+			min-width: inherit;
+			float: inherit;
+			font-size: 0.5em;
+		}
+	}
+	section {
 		padding: 0 10px;
 	}
 	h1 {
 		border: 0;
 		text-align: center;
 		opacity: 0.8;
+		float: none;
 	}
 	.mobile-hidden {
 		display: none;

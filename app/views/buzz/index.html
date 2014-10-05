@@ -1,83 +1,19 @@
-<header>
-	<h1>BuzzApp</h1>
-</header>
+<%= render 'header' %>
 
-<main>
+<section>
 	<form method="POST" action="/buzz" id="form">
 		<fieldset>
 			<label for="Name" class="mobile-hidden">Name</label>
-			<input type="text" placeholder="Name" name="name" id="Name">
+			<input type="text" placeholder="Name" name="name" id="name" value="<%= @name %>">
 		</fieldset>
 		<fieldset>
 			<label for="Team">Team</label>
 			<select name="team" id="team">
-				<option value="Red">Red</option>
-				<option value="Blue">Blue</option>
-				<option value="Yellow">Yellow</option>
+				<% @teams.each do |key,value| %>
+				<option value="<%= key %>" <%= "selected" if key == @team %>><%= key %></option>
+				<% end %>
 			</select>
 		</fieldset>
 	</form>
 	<button id="buzzer"> buzz </button>
-</main>
-
-<script>
-
-	(function($){
-
-		var $body = $('body'),
-			$buzzer = $('#buzzer'),
-			$form = $('#form'),
-			timer = true,
-			DELAY = 3000;
-
-		function buzz(bool) {
-
-			var buzzClass = bool ? 'buzzed-in' : 'buzzed-in-fail',
-				buzzMessage = bool ? 'success!' : 'nope!';
-
-			$body.addClass(buzzClass);
-			$buzzer.html(buzzMessage);
-
-			setTimeout(function(){
-				$body.removeClass(buzzClass);
-				$buzzer.html('buzz');
-			},DELAY);
-		}
-
-		function bindBuzzer() {
-			$buzzer.on('click', function(e){
-				e.preventDefault();
-
-				if( !$body.hasClass('buzzed-in') && !$body.hasClass('buzzed-in-fail') ){
-					$form.submit();
-				}
-			});
-		}
-
-		$form.submit(function(e) {
-
-			var postData = $(this).serializeArray();
-			var formURL = $(this).attr("action");
-			$.ajax({
-				url : formURL,
-				type: "POST",
-				data : postData,
-
-			}).done(function(){
-
-				buzz(true);
-
-			}).fail(function(x, t, m){
-
-					buzz(false);
-
-			});
-
-			e.preventDefault(); //STOP default action
-		});
-
-		bindBuzzer();
-
-
-	}(jQuery));
-</script>
+</section>

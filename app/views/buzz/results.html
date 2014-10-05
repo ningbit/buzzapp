@@ -1,0 +1,25 @@
+<%= render 'header' %>
+
+<section>
+	<table>
+		<caption>Results</caption>
+		<thead>
+			<th>Team Name</th>
+			<th>Points</th>
+		</thead>
+		<tbody>
+			<% @teams.each do |key, value| %>
+			<tr class="<%= 'highscore' if value == @highscore %>">
+				<td class="team-name"><%= key %></td>
+				<td class="team-score"><%= value %></td>
+			</tr>
+			<% end %>
+		</tbody>
+	</table>
+</section>
+
+<script>
+	setInterval(function(){
+		location.reload();
+	},10000)
+</script>
