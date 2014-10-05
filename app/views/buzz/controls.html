@@ -1,0 +1,43 @@
+<header>
+	<h1>BuzzApp</h1>
+</header>
+
+<main class="controls">
+	<button id="reset"> reset buzzer </button>
+	<button class="start"> Start </button>
+</main>
+
+<script>
+	(function($){
+
+		$('.controls').on('click', '#reset', function(e){
+
+			$.ajax({
+				url : '/reset',
+				type: "GET"
+			});
+
+		}).on('click', '.start', function(e){
+
+			$(this).html('Pause').removeClass('start').addClass('pause');
+
+			$.ajax({
+				url : '/start',
+				type: "GET"
+			});
+
+
+		}).on('click', '.pause', function(e){
+
+			$(this).html('Start').removeClass('pause').addClass('start');
+
+			$.ajax({
+				url : '/pause',
+				type: "GET"
+			});
+
+		});
+
+	}(jQuery));
+
+</script>

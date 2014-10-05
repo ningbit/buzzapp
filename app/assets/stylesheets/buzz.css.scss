@@ -8,12 +8,11 @@ body {
 	color: #fff;
 	font-size: 20px;
 
-	&.buzzed-in {
-		background-color: rgb(141,198,63);
-	}
-
 	&.buzzed-in-fail {
 		background-color: rgb(254,77,77);
+	}
+	&.buzzed-in {
+		background-color: rgb(141,198,63);
 	}
 }
 

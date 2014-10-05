@@ -4,6 +4,14 @@ BuzzApp::Application.routes.draw do
 
   get '/buzz', :to => 'buzz#index'
 
-  get '/buzzin', :to => 'buzz#buzz'
+  post '/buzz', :to => 'buzz#buzz'
+
+  get '/controls', :to => 'buzz#controls'
+
+  get '/reset', :to => 'buzz#reset'
+
+  get '/start', :to => 'buzz#start'
+
+  get '/pause', :to => 'buzz#pause'
 
 end

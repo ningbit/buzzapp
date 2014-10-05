@@ -3,7 +3,7 @@
 </header>
 
 <main>
-	<form method="GET" action="/buzzin" id="form">
+	<form method="POST" action="/buzz" id="form">
 		<fieldset>
 			<label for="Name" class="mobile-hidden">Name</label>
 			<input type="text" placeholder="Name" name="name" id="Name">
@@ -28,12 +28,12 @@
 			$buzzer = $('#buzzer'),
 			$form = $('#form'),
 			timer = true,
-			DELAY = 5000;
+			DELAY = 3000;
 
 		function buzz(bool) {
 
 			var buzzClass = bool ? 'buzzed-in' : 'buzzed-in-fail',
-				buzzMessage = bool ? 'success!' : 'too slow!';
+				buzzMessage = bool ? 'success!' : 'nope!';
 
 			$body.addClass(buzzClass);
 			$buzzer.html(buzzMessage);
@@ -45,34 +45,34 @@
 		}
 
 		function bindBuzzer() {
-			$buzzer.one('click', function(e){
+			$buzzer.on('click', function(e){
 				e.preventDefault();
-				$form.submit();
+
+				if( !$body.hasClass('buzzed-in') && !$body.hasClass('buzzed-in-fail') ){
+					$form.submit();
+				}
 			});
 		}
 
 		$form.submit(function(e) {
+
 			var postData = $(this).serializeArray();
 			var formURL = $(this).attr("action");
-			$.ajax(
-			{
+			$.ajax({
 				url : formURL,
-				type: "GET",
+				type: "POST",
 				data : postData,
-				success:function(data, textStatus, jqXHR)
-				{
-					buzz(true);
-				},
-				error: function(jqXHR, textStatus, errorThrown)
-				{
+
+			}).done(function(){
+
+				buzz(true);
+
+			}).fail(function(x, t, m){
+
 					buzz(false);
-				},
-				complete: function(){
-					setTimeout(function(){
-						bindBuzzer();
-					},DELAY)
-				}
+
 			});
+
 			e.preventDefault(); //STOP default action
 		});
 
