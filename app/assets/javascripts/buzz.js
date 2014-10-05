@@ -5,10 +5,14 @@
 		var $body = $('body'),
 			$buzzer = $('#buzzer'),
 			$form = $('#form'),
+			$controls = $('.controls'),
 			timer = true,
 			queryName = getQueryVariable('name'),
 			queryTeam = getQueryVariable('team'),
 			DELAY = 3000;
+
+		navigator.vibrate = navigator.vibrate || navigator.webkitVibrate || navigator.mozVibrate || navigator.msVibrate,
+
 
 		function buzz(status) {
 
@@ -42,7 +46,6 @@
 
 		function bindBuzzer() {
 			$buzzer.on('click', function(e){
-				console.log('click');
 
 				e.preventDefault();
 
@@ -77,6 +80,26 @@
 			});
 		}
 
+		function ajaxGet(url){
+			$.ajax({
+				url : '/'+url,
+				type: "GET"
+			});
+		}
+
+		function playSound(action){
+
+			var path = '/yoshi.wav',
+				audio = new Audio(path);
+
+			audio.play();
+
+			if ( navigator.vibrate ) {
+
+				navigator.vibrate(200);
+			}
+		}
+
 		$form.submit(function(e) {
 
 			var postData = $(this).serializeArray();
@@ -89,6 +112,7 @@
 			}).done(function(){
 
 				buzz('success');
+				playSound('success');
 
 			}).always(function(x, t, m){
 
@@ -108,13 +132,10 @@
 
 		// Controls
 
-		$('.controls').on('click', '.reset', function(e){
+		$controls.on('click', '.reset', function(e){
 			var $this = $(this);
 
-			$.ajax({
-				url : '/reset',
-				type: "GET"
-			});
+			ajaxGet('reset');
 
 			$this.addClass('active');
 
@@ -124,35 +145,37 @@
 
 		}).on('click', '.start', function(e){
 
-			$(this).html('pause game').removeClass('start').addClass('pause');
+			$controls.removeClass('game-paused');
 
-			$.ajax({
-				url : '/start',
-				type: "GET"
-			});
-
+			ajaxGet('start');
 
 		}).on('click', '.pause', function(e){
 
-			$(this).html('start game').removeClass('pause').addClass('start');
+			$controls.addClass('game-paused');
 
-			$.ajax({
-				url : '/pause',
-				type: "GET"
-			});
+			ajaxGet('pause');
 
 		}).on('click', '.right', function(e){
 
-			$.ajax({
-				url : '/right',
-				type: "GET"
-			});
+			if ( !$controls.hasClass('game-paused') ) {
+				ajaxGet('right');
+			}
 
 		}).on('click', '.wrong', function(e){
-			$.ajax({
-				url : '/wrong',
-				type: "GET"
-			});
+
+			if ( !$controls.hasClass('game-paused') ) {
+				ajaxGet('wrong');
+			}
+		}).on('click', '.scores', function(e){
+			ajaxGet('scores');
+		});
+
+		$('#name').on('keydown',function(e){
+
+			if(e.keyCode == 13){
+				e.preventDefault();
+				$('#team').focus();
+			}
 		});
 
 		$('#name, #team').on('change',function(){
@@ -164,7 +187,17 @@
 
 			if (history.pushState) {
 				var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + queryString;
+
 				window.history.pushState({path:newurl},'',newurl);
+			}
+
+			if ( $(this).attr('id')==='team' ) {
+
+				ajaxGet('welcome-team'+queryString);
+
+			} else {
+
+				ajaxGet('welcome-player'+queryString);
 			}
 		});
 

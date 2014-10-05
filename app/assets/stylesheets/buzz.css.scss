@@ -2,10 +2,9 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-$blue: #42B4E6;
+$blue: rgb(66,180,230);
 $red: rgb(254,77,77);
-// $yellow: rgb(255,196,52);
-$yellow: gold;
+$yellow: rgb(255,215,0);
 $green: rgb(141,198,63);
 
 body {
@@ -31,7 +30,7 @@ body {
 header {
 	overflow: hidden;
 	margin-bottom: 40px;
-	padding: 0 10px;
+	padding: 0 20px;
 
 	&:after {
 		content: "";
@@ -60,14 +59,15 @@ nav {
 		float: left;
 		font-size: 0.75em;
 		text-decoration: none;
-		text-align: left;
-		min-width: 70px;
+		text-align: center;
+		padding-left: 15px;
 	}
 }
 
 section {
-	padding: 0 30px;
+	padding: 0 20px;
 	max-width: 1000px;
+	margin: 0 auto;
 }
 
 fieldset {
@@ -105,6 +105,7 @@ button {
 	border-radius: 5px;
 	font-size: 10vmin;
 	margin-top: 20px;
+	cursor: pointer;
 }
 table {
 	border-collapse: collapse;
@@ -129,7 +130,7 @@ td {
 	border-top: 1px solid #fff;
 }
 .highscore {
-	color: gold;
+	color: $yellow;
 
 	.team-name {
 
@@ -146,9 +147,46 @@ td {
 .controls {
 	// max-width: 900px;
 
+	&.game-paused {
+		button {
+			background-color: rgba(224,224,224,0);
+			cursor: default;
+		}
+		.start {
+			background-color: $green;
+			cursor: pointer;
+		}
+		.pause {
+			border-color: $yellow;
+			border-width: 3px;
+		}
+	}
+
 	button {
 		font-size: 6vmin;
 		padding: 5vmin 0;
+	}
+}
+.row-col-2 {
+	button {
+		float: left;
+		width: 48.5%;
+
+		&:first-child {
+			margin-right: 3%;
+		}
+	}
+}
+.row-col-3 {
+	button {
+		float: left;
+		width: 31.33333333%;
+		margin-left: 3%;
+		font-size: 4vmin;
+
+		&:first-child {
+			margin-left: 0;
+		}
 	}
 }
 
@@ -159,23 +197,25 @@ td {
 		background-color: rgba(255,255,255,0.2);
 	}
 }
-.right,
-.wrong {
-	float: left;
-	width: 47.5%;
-}
+
 .wrong {
 	background-color: $red;
-	margin-left: 5%;
 }
-.start,
+.start {
+	background-color: rgba(224,224,224,0);
+	border-color: $green;
+	border-width: 3px;
+	cursor: default
+}
 .right {
 	background-color: $green;
 
 }
 .pause {
 	background-color: $yellow;
-
+}
+.scores {
+	border-width: 3px;
 }
 
 @media ("max-width: 600px") {
@@ -203,6 +243,7 @@ td {
 			min-width: inherit;
 			float: inherit;
 			font-size: 0.5em;
+			padding: 0 3px;
 		}
 	}
 	section {
@@ -221,5 +262,13 @@ td {
 		padding-left: 0;
 		padding-right: 0;
 		width: 100%;
+	}
+	.right,
+	.wrong {
+		width: 47.5%;
+	}
+	.wrong {
+		background-color: $red;
+		margin-left: 5%;
 	}
 }

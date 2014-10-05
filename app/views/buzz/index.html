@@ -9,6 +9,7 @@
 		<fieldset>
 			<label for="Team">Team</label>
 			<select name="team" id="team">
+				<option value="" disabled selected>Select your option</option>
 				<% @teams.each do |key,value| %>
 				<option value="<%= key %>" <%= "selected" if key == @team %>><%= key %></option>
 				<% end %>

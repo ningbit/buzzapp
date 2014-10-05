@@ -1,13 +1,14 @@
 <%= render 'header' %>
 
-<section class="controls">
-	<button class="right"> right </button>
-	<button class="wrong"> wrong </button>
+<section class="controls<%= ' game-paused' if not @game_started %>">
+	<div class="row-col-2">
+		<button class="right"> right </button>
+		<button class="wrong"> wrong </button>
+	</div>
 	<button class="reset"> reset buzzer </button>
-
-	<% if @game_started %>
-		<button class="pause"> pause game </button>
-	<% else %>
+	<div class="row-col-3">
 		<button class="start"> start game </button>
-	<% end %>
+		<button class="pause"> pause game </button>
+		<button class="scores"> scores </button>
+	</div>
 </section>

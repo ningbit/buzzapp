@@ -20,4 +20,10 @@ BuzzApp::Application.routes.draw do
 
   get '/pause', :to => 'buzz#pause'
 
+  get '/scores', :to => 'buzz#scores'
+
+  get '/welcome-player', :to => 'buzz#welcome_player'
+
+  get '/welcome-team', :to => 'buzz#welcome_team'
+
 end

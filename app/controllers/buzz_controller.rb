@@ -2,15 +2,34 @@ require 'eventmachine'
 
 class BuzzController < ApplicationController
 
+	@@teams = {
+		"Aztec Tribe" => 0,
+		"Inca Empire" => 0,
+		"Mayan Ruins"=> 0
+	}
 	@@buzzed_in = false
 	@@game_started = false
-	@@active_team = 'null'
-	@@active_player = 'null'
-	@@teams = {
-		'Aztec Tribe' => 5,
-		'Blue' => 0,
-		'Yellow'=> 0
+	@@active_team = @@teams.keys.first
+	@@active_player = "null"
+	@@sounds = {
+		"wrong" => {
+			"sosumi" => "./Sosumi.aiff",
+			"pipe" => "./smb_pipe.wav"
+		},
+		"right" => {
+			"1up" => "./smb_1up.wav",
+			"coin" => "./smb_coin.wav",
+			"powerup" => "./smb_powerup.wav",
+			"1up_smw" => "./smw_1up.wav",
+			"coin_smw" => "./smw_coin.wav",
+			"jump_smw" => "./smw_jump.wav",
+			"yoshi" => "./smw_riding_yoshi.wav"
+		},
+		"pause" => {
+			"pause" => "./smb_pause.wav"
+		}
 	}
+	@@speed = 220
 
 	def index
 
@@ -27,11 +46,14 @@ class BuzzController < ApplicationController
 
 		if @@game_started
 
+			same_player = @@active_player == params[:name][/[a-zA-Z0-9\s]*/] ?
+				true : false
+
 		    @@active_player = params[:name][/[a-zA-Z0-9\s]*/]
 		    @@active_team = params[:team][/[a-zA-Z0-9\s]*/]
-		    string = "#{@@active_player} from Team #{@@active_team}"
-
-		    string += "has buzzed in" if Random.rand(2) > 0
+		    string = !same_player ?
+		    	"#{@@active_player} from Team #{@@active_team} has buzzed in" :
+		    	"#{@@active_player} from Team #{@@active_team}"
 
 			if @@buzzed_in == true
 
@@ -77,6 +99,48 @@ class BuzzController < ApplicationController
 
 	end
 
+	def quiz
+
+	end
+
+	def welcome_player
+		if not @@game_started
+
+	    	player = params[:name][/[a-zA-Z0-9\s]*/]
+	    	team = params[:team][/[a-zA-Z0-9\s]*/]
+
+	    	speak "Welcome #{player}"
+
+	    end
+
+	    render :text => 'Welcome', :status => '200'
+	end
+
+	def welcome_team
+
+		if not @@game_started
+
+	    	player = params[:name][/[a-zA-Z0-9\s]*/]
+	    	team = params[:team][/[a-zA-Z0-9\s]*/]
+
+	    	speak "#{player} has joined team #{team}" if not player.empty?
+
+	    end
+
+	    render :text => 'Welcome', :status => '200'
+	end
+
+	def scores
+
+		scores_str = @@teams.map do |team_name,score|
+			"#{team_name} has #{get_points(team_name)}"
+		end.join(",")
+
+		speak "The current standings are as follows, #{scores_str}"
+
+		render :text => 'Welcome', :status => '200'
+	end
+
 	def reset
 
 		reset_buzzer
@@ -86,19 +150,25 @@ class BuzzController < ApplicationController
 
 	def right
 
-		reset_buzzer
+		if @@buzzed_in
 
-		add_points
+			add_points
 
-		string = [
-			"Team #{@@active_team} gets 1 point",
-			"#{@@active_player} scores a point for Team #{@@active_team}",
-			"#{@@active_player} is right",
-			"Good job #{@@active_player}, 1 point",
-			"That is correct",
-			"Team #{@@active_team} now has #{get_points} points"
-		]
-		speak string[rand(string.length)]
+			reset_buzzer
+
+			play_sound("right");
+
+			string = [
+				"Team #{@@active_team} gets 1 point",
+				"#{@@active_player} scores a point for Team #{@@active_team}",
+				"#{@@active_player} is right",
+				"Good job #{@@active_player}, 1 point",
+				"That is correct",
+				"Team #{@@active_team} now has #{get_points}"
+			]
+			speak string[rand(string.length)]
+
+		end
 
 		render :text => 'Right', :status => '200'
 
@@ -106,23 +176,32 @@ class BuzzController < ApplicationController
 
 	def wrong
 
-		remove_points
+		if @@buzzed_in
 
-		reset_buzzer
-		string = [
-			"Team #{@@active_team} loses 1 point",
-			"#{@@active_player} loses a point for Team #{@@active_team}",
-			"That is incorrect, minus 1",
-			"That is not the right answer",
-			"Team #{@@active_team} now has #{get_points} points"
-		]
-		speak string[rand(string.length)]
+			remove_points
+
+			play_sound("wrong");
+
+			reset_buzzer
+
+			string = [
+				"Team #{@@active_team} loses 1 point",
+				"#{@@active_player} loses a point for Team #{@@active_team}",
+				"That is incorrect, minus 1",
+				"That is not the right answer",
+				"Team #{@@active_team} now has #{get_points}"
+			]
+			speak string[rand(string.length)]
+
+		end
 
 		render :text => 'Wrong', :status => '200'
 
 	end
 
 	def start
+
+		play_sound("right","yoshi")
 
 		@@game_started = true
 		@@buzzed_in = false
@@ -131,6 +210,8 @@ class BuzzController < ApplicationController
 	end
 
 	def pause
+
+		play_sound("pause")
 
 		@@game_started = false
 		render :text => 'Pause', :status => '200'
@@ -141,7 +222,22 @@ class BuzzController < ApplicationController
 
 	    EM.run do
 	    	EM.defer( proc do
-	    		eval "system \"say #{string}\""
+	    		eval "system \"say #{string} -r #{@@speed}\""
+	    	end)
+		end
+
+	end
+
+	def play_sound(action, specific_sound = false)
+		available_sounds = @@sounds[action].keys
+		sound = specific_sound != false ?
+			@@sounds[action][specific_sound] :
+			@@sounds[action][available_sounds[rand(available_sounds.length)]]
+
+
+	    EM.run do
+	    	EM.defer( proc do
+	    		eval "system \"afplay #{sound}\""
 	    	end)
 		end
 
@@ -163,8 +259,17 @@ class BuzzController < ApplicationController
 
 	end
 
-	def get_points
-		points = @@teams[@@active_team]
-		return points > 0 ? points : "negative #{points.abs}"
+	def get_points(team=@@active_team)
+		points = @@teams[team]
+
+		if ( points == 1 || points == - 1 )
+			points_str = "#{points.abs} point"
+		else
+			points_str = "#{points.abs} points"
+		end
+
+		points_str = "negative #{points_str}" if points < 0
+
+		return points_str
 	end
 end

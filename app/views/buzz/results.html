@@ -11,7 +11,7 @@
 			<% @teams.each do |key, value| %>
 			<tr class="<%= 'highscore' if value == @highscore %>">
 				<td class="team-name"><%= key %></td>
-				<td class="team-score"><%= value %></td>
+				<td class="team-score<%= ' negative' if value < 0 %>"><%= value %></td>
 			</tr>
 			<% end %>
 		</tbody>
