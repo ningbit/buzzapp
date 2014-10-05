@@ -1,0 +1,81 @@
+// Place all the styles related to the Buzz controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	background-color: #42B4E6;
+	font-family: 'Helvetica', sans-serif;
+	color: #fff;
+	font-size: 20px;
+
+	&.buzzed-in {
+		background-color: rgb(141,198,63);
+	}
+
+	&.buzzed-in-fail {
+		background-color: rgb(254,77,77);
+	}
+}
+
+h1 {
+	font-size: 1.25em;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 3px;
+}
+
+main {
+	padding: 0 30px;
+}
+
+fieldset {
+	border: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+input[type=text] {
+	border: 0;
+	background-color: transparent;
+	border-bottom: 1px solid #fff;
+	color: #fff;
+	font-size: 1em;
+	border-radius: 0;
+}
+
+::-webkit-input-placeholder {
+	font-family: 'Helvetica', sans-serif;
+	color: rgba(255,255,255,0.2);
+	font-size: 1em;
+}
+
+button {
+	background-color: rgba(255,255,255,0.2);
+	border: 1px solid rgba(255,255,255,0.4);
+	padding: 8vw 0;
+	width: 100%;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 10vw;
+	margin-top: 40px;
+}
+
+@media ("max-width: 600px") {
+	body {
+		font-size: 28px;
+	}
+	main {
+		padding: 0 10px;
+	}
+	h1 {
+		border: 0;
+		text-align: center;
+		opacity: 0.8;
+	}
+	.mobile-hidden {
+		display: none;
+	}
+	input[type=text] {
+		padding-left: 0;
+		padding-right: 0;
+		width: 100%;
+	}
+}

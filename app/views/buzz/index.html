@@ -1,0 +1,83 @@
+<header>
+	<h1>BuzzApp</h1>
+</header>
+
+<main>
+	<form method="GET" action="/buzzin" id="form">
+		<fieldset>
+			<label for="Name" class="mobile-hidden">Name</label>
+			<input type="text" placeholder="Name" name="name" id="Name">
+		</fieldset>
+		<fieldset>
+			<label for="Team">Team</label>
+			<select name="team" id="team">
+				<option value="Red">Red</option>
+				<option value="Blue">Blue</option>
+				<option value="Yellow">Yellow</option>
+			</select>
+		</fieldset>
+	</form>
+	<button id="buzzer"> buzz </button>
+</main>
+
+<script>
+
+	(function($){
+
+		var $body = $('body'),
+			$buzzer = $('#buzzer'),
+			$form = $('#form'),
+			timer = true,
+			DELAY = 5000;
+
+		function buzz(bool) {
+
+			var buzzClass = bool ? 'buzzed-in' : 'buzzed-in-fail',
+				buzzMessage = bool ? 'success!' : 'too slow!';
+
+			$body.addClass(buzzClass);
+			$buzzer.html(buzzMessage);
+
+			setTimeout(function(){
+				$body.removeClass(buzzClass);
+				$buzzer.html('buzz');
+			},DELAY);
+		}
+
+		function bindBuzzer() {
+			$buzzer.one('click', function(e){
+				e.preventDefault();
+				$form.submit();
+			});
+		}
+
+		$form.submit(function(e) {
+			var postData = $(this).serializeArray();
+			var formURL = $(this).attr("action");
+			$.ajax(
+			{
+				url : formURL,
+				type: "GET",
+				data : postData,
+				success:function(data, textStatus, jqXHR)
+				{
+					buzz(true);
+				},
+				error: function(jqXHR, textStatus, errorThrown)
+				{
+					buzz(false);
+				},
+				complete: function(){
+					setTimeout(function(){
+						bindBuzzer();
+					},DELAY)
+				}
+			});
+			e.preventDefault(); //STOP default action
+		});
+
+		bindBuzzer();
+
+
+	}(jQuery));
+</script>
