@@ -1,14 +1,24 @@
 BuzzApp::Application.routes.draw do
 
+
+
+  #pages
+
   root :to => 'buzz#index'
 
   get '/buzz', :to => 'buzz#index'
 
-  post '/buzz', :to => 'buzz#buzz'
-
   get '/results', :to => 'buzz#results'
 
   get '/controls', :to => 'buzz#controls'
+
+  get '/quiz', :to => 'quiz#index'
+
+  # buzz actions
+
+  post '/buzz', :to => 'buzz#buzz'
+
+  # control actions
 
   get '/right', :to => 'buzz#right'
 
@@ -19,6 +29,8 @@ BuzzApp::Application.routes.draw do
   get '/start', :to => 'buzz#start'
 
   get '/pause', :to => 'buzz#pause'
+
+  # announcer actions
 
   get '/scores', :to => 'buzz#scores'
 
