@@ -11,7 +11,7 @@
 			queryTeam = getQueryVariable('team'),
 			DELAY = 3000;
 
-		navigator.vibrate = navigator.vibrate || navigator.webkitVibrate || navigator.mozVibrate || navigator.msVibrate,
+		navigator.vibrate = navigator.vibrate || navigator.webkitVibrate || navigator.mozVibrate || navigator.msVibrate;
 
 
 		function buzz(status) {
