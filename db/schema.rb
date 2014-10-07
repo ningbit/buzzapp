@@ -10,3 +10,28 @@
 # you'll amass, the slower it'll run and the greater likelihood for issues).
 #
 # It's strongly recommended to check this file into your version control system.
+
+ActiveRecord::Schema.define(:version => 20141006235726) do
+
+  create_table "questions", :force => true do |t|
+    t.integer  "topic_id"
+    t.string   "title",      :null => false
+    t.string   "answer"
+    t.string   "author"
+    t.string   "choice_a"
+    t.string   "choice_b"
+    t.string   "choice_c"
+    t.string   "choice_d"
+    t.string   "choice_e"
+    t.integer  "points"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "topics", :force => true do |t|
+    t.string   "name",       :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+end

@@ -145,11 +145,26 @@
 
 		}).on('click', '.start', function(e){
 
+			if ($controls.hasClass('game-paused')) {
+				$(this).html('game started');
+				$('.pause').html('pause game');
+			} else {
+				$(this).html('start game');
+			}
+
 			$controls.removeClass('game-paused');
 
 			ajaxGet('start');
 
 		}).on('click', '.pause', function(e){
+
+			if ($controls.hasClass('game-paused')) {
+				$(this).html('pause game');
+
+			} else {
+				$(this).html('game paused');
+				$('.start').html('start game');
+			}
 
 			$controls.addClass('game-paused');
 

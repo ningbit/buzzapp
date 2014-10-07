@@ -1,0 +1,136 @@
+{
+	"topics":
+	{
+		"Acronyms":
+		{
+			"questions":
+			[
+				{
+					"title": "What does HTML stand for?",
+					"answer": "HyperText Markup Language",
+					"author": "Ning"
+				},
+				{
+					"title": "What does CSS stand for?"
+				},
+				{
+					"title": "What does XHTML stand for?"
+				},
+				{
+					"title": "What does SASS stand for?"
+				},
+				{
+					"title": "What does HTTP stand for?"
+				},
+				{
+					"title": "What does REST stand for?"
+				},
+				{
+					"title": "What does CRUD stand for?"
+				},
+				{
+					"title": "What does DOM stand for?"
+				},
+				{
+					"title": "What does DRY stand for?"
+				},
+				{
+					"title": "What does BASH stand for?"
+				},
+				{
+					"title": "What does GUI stand for?"
+				},
+				{
+					"title": "What does ASP stand for?"
+				},
+				{
+					"title": "What does DLL stand for?"
+				},
+				{
+					"title": "What does DNS stand for?"
+				},
+				{
+					"title": "What does IP stand for?"
+				},
+				{
+					"title": "What does TCP stand for?"
+				},
+				{
+					"title": "What does FTP stand for?"
+				},
+				{
+					"title": "What does SSL stand for?"
+				},
+				{
+					"title": "What does HSL stand for?"
+				},
+				{
+					"title": "What does SVG stand for?"
+				},
+				{
+					"title": "What does SEO stand for?"
+				},
+				{
+					"title": "What does CMS stand for?"
+				},
+				{
+					"title": "What does RSS stand for?"
+				},
+				{
+					"title": "What does LAMP stand for?"
+				},
+				{
+					"title": "What does AJAX stand for?"
+				},
+				{
+					"title": "What does JSON stand for?"
+				},
+				{
+					"title": "What does OOP stand for?"
+				},
+				{
+					"title": "What does ECMAScript stand for?"
+				}
+			]
+		},
+		"HTTP":
+		{
+			"questions":
+			[
+				{
+					"title": "What is the difference between a GET and a POST request"
+				}
+			]
+		},
+		"CSS":
+		{
+			"questions":
+			[
+				{
+					"title": "Are CSS property names case-sensitive?",
+					"img-src": "/images/css_case-sensitive.png",
+					"options": ["Yes","No"]
+				},
+				{
+					"title": "Does setting margin-top and margin-bottom have an effect on an inline element?",
+					"options": ["Yes","No"]
+				},
+				{
+					"title": "Does setting padding-top and padding-bottom have an affect on an inline element?",
+					"options": ["Yes","No"]
+				},
+				{
+					"title": "Arrange the following in order of selection precedence:",
+					"list": ["#item { color: red;} ","ul li { color: blue}", "ul li.item { color: green}", ".item.blue { color: yellow}"]
+				}
+			],
+			"credit":
+			{
+				"see-more": "Visit http://davidshariff.com/quiz/ for more CSS questions"
+			}
+		},
+		"Javascript": {},
+		"Sublime Text 2": {},
+		"Ruby": {}
+	}
+}

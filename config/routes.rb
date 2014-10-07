@@ -2,6 +2,16 @@ BuzzApp::Application.routes.draw do
 
 
 
+
+
+
+  resources :topics do
+
+    resources :questions
+
+  end
+
+
   #pages
 
   root :to => 'buzz#index'

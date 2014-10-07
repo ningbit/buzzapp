@@ -1,0 +1,2512 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"aja",
+				"ajaxUrl"
+			],
+			[
+				"1up",
+				"1up"
+			],
+			[
+				"get",
+				"getQueryVariable"
+			],
+			[
+				"fade",
+				"fadeInClonedSlides"
+			],
+			[
+				"talent",
+				"talentsCarousel"
+			],
+			[
+				"talen",
+				"talentsCarousel"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"tile-title-",
+				"tile-title-p-text"
+			],
+			[
+				"tile-tab",
+				"tile-tablet-half-size"
+			],
+			[
+				"mob",
+				"mobile-vw"
+			],
+			[
+				"tile-2x",
+				"tile-2x2"
+			],
+			[
+				"tablet",
+				"tile-tablet-2x"
+			],
+			[
+				"letter",
+				"letter-spacing"
+			],
+			[
+				"Profes",
+				"ProfessionalInstallWhite"
+			],
+			[
+				"access",
+				"accessibilityHelpers"
+			],
+			[
+				"radio",
+				"radioOptions"
+			],
+			[
+				"acce",
+				"accessibilityHelpers"
+			],
+			[
+				"acc",
+				"accessibilityHelpers"
+			],
+			[
+				"collaps",
+				"collapsible-section"
+			],
+			[
+				"disabl",
+				"disableFocusOnLinks"
+			],
+			[
+				"btn-toggle",
+				"btn-toggle-upgrade"
+			],
+			[
+				"buy",
+				"buyFlowHeader"
+			],
+			[
+				"disable",
+				"disableNextBtnIfRequiredExists"
+			],
+			[
+				"clear",
+				"clearFieldIncompleteError"
+			],
+			[
+				"validat",
+				"validationHelpers"
+			],
+			[
+				"allRe",
+				"allRequiredFieldsComplete"
+			],
+			[
+				"html",
+				"htmlBody"
+			],
+			[
+				"click",
+				"clickEvt"
+			],
+			[
+				"body",
+				"htmlBody"
+			],
+			[
+				"error",
+				"errorSection"
+			],
+			[
+				"all",
+				"allSectionsComplete"
+			],
+			[
+				"form",
+				"formHelpers"
+			],
+			[
+				"Cli",
+				"clickEvt"
+			],
+			[
+				"scroll",
+				"scrollToItemOnMobile"
+			],
+			[
+				"H",
+				"formHelpers"
+			],
+			[
+				"btn-toggle-",
+				"btn-toggle-edit"
+			],
+			[
+				"btn-to",
+				"btn-toggle-upgrade"
+			],
+			[
+				"btn-add",
+				"btn-toggle-add-remove"
+			],
+			[
+				"pac",
+				"packageHelpers"
+			],
+			[
+				"packa",
+				"packageOption"
+			],
+			[
+				"upgr",
+				"upgradeSelectionID"
+			],
+			[
+				"bind",
+				"bindToggleAddRemoveOption"
+			],
+			[
+				"service",
+				"serviceHelpers"
+			],
+			[
+				"toggle",
+				"toggleAddRemoveOption"
+			],
+			[
+				"check",
+				"checkAllRequiredSectionsComplete"
+			],
+			[
+				"mark",
+				"markRequiredSectionComplete"
+			],
+			[
+				"require",
+				"requiredInputs"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"parse",
+				"parseServiceOption"
+			],
+			[
+				"Custom",
+				"CustomizePhone"
+			],
+			[
+				"Cust",
+				"CustomizeTV"
+			],
+			[
+				"servi",
+				"service-desc"
+			],
+			[
+				"pb",
+				"pb	padding-bottom"
+			],
+			[
+				"Acc",
+				"AccountInfoWhite"
+			],
+			[
+				"Customize",
+				"CustomizeTVWhite"
+			],
+			[
+				"Customi",
+				"CustomizeTVWhite"
+			],
+			[
+				"next",
+				"nextMonthBtn"
+			],
+			[
+				"prevM",
+				"prevMonthBtn"
+			],
+			[
+				"e",
+				"e"
+			],
+			[
+				"appoint",
+				"appointmentSelector"
+			],
+			[
+				"avail",
+				"availableDate"
+			],
+			[
+				"availab",
+				"availableDateClass"
+			],
+			[
+				"appin",
+				"appointmentSelector"
+			],
+			[
+				"price",
+				"price-disclaimer"
+			],
+			[
+				"line-break",
+				"line-break-primary"
+			],
+			[
+				"coll",
+				"collapsibleSections"
+			],
+			[
+				"list-",
+				"list-style-type"
+			],
+			[
+				"colla",
+				"collapsibleForm"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"additional",
+				"additional-inner"
+			],
+			[
+				"color",
+				"color-border-grey"
+			],
+			[
+				"construct",
+				"constructCustomizeServices"
+			],
+			[
+				"summar",
+				"summary-header"
+			],
+			[
+				"fixed",
+				"fixed-wrapper"
+			],
+			[
+				"order-summar",
+				"order-summary-section"
+			],
+			[
+				"summary-",
+				"summary-tables"
+			],
+			[
+				"addiion",
+				"additional-options"
+			],
+			[
+				"addit",
+				"additional-options"
+			],
+			[
+				"option",
+				"option-controls"
+			],
+			[
+				"grey",
+				"color-grey-medium"
+			],
+			[
+				"order-summary",
+				"order-summary-link"
+			],
+			[
+				"pass",
+				"pass-option"
+			],
+			[
+				"stopPropo",
+				"stopPropagation"
+			],
+			[
+				"pagin",
+				"paginationCarousel"
+			],
+			[
+				"carouse",
+				"carouselPagination"
+			],
+			[
+				"toggleOp",
+				"toggleOptionClass"
+			],
+			[
+				"Toggl",
+				"toggleGroupDataAttr"
+			],
+			[
+				"set",
+				"setVideoSize"
+			],
+			[
+				"video",
+				"videoSources"
+			],
+			[
+				"emb",
+				"embedNewVideo"
+			],
+			[
+				"close",
+				"closeModalClass"
+			],
+			[
+				"vjs-progress",
+				"vjs-progress-control"
+			],
+			[
+				"image",
+				"image-wrapper"
+			],
+			[
+				"dark",
+				"darkBlue"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"block",
+				"blockquote"
+			],
+			[
+				"stick",
+				"stickyControlsOffset"
+			],
+			[
+				"compone",
+				"component-header"
+			],
+			[
+				"componen",
+				"component-section"
+			],
+			[
+				"deal",
+				"deal-finder-form"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"touch",
+				"touchEvt"
+			],
+			[
+				"glob",
+				"globalWrapperClass"
+			],
+			[
+				"overlayB",
+				"overlayBackgroundClass"
+			],
+			[
+				"expand",
+				"expandContentClass"
+			],
+			[
+				"color-",
+				"color-border-grey"
+			],
+			[
+				"20px",
+				"20px"
+			],
+			[
+				"overl",
+				"overlay-content"
+			],
+			[
+				"content",
+				"content-section"
+			],
+			[
+				"pricing",
+				"pricing-section"
+			],
+			[
+				"conten",
+				"content-body"
+			],
+			[
+				"backgrou",
+				"background-position"
+			],
+			[
+				"disc",
+				"disclaimer"
+			],
+			[
+				"first",
+				"first-child"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"deal-option",
+				"deal-option-section"
+			],
+			[
+				"deal-finder",
+				"deal-finder-form"
+			],
+			[
+				"deal-",
+				"deal-finder-btn"
+			],
+			[
+				"scroll-",
+				"scroll-viewport"
+			],
+			[
+				"list-style-",
+				"list-style-position"
+			],
+			[
+				"section",
+				"section-image-wrapper"
+			],
+			[
+				"sty",
+				"font-style"
+			],
+			[
+				"compne",
+				"component-header"
+			],
+			[
+				"cur",
+				"getCurSlide"
+			],
+			[
+				"sectio",
+				"section-text-content"
+			],
+			[
+				"sect",
+				"section-text-content"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/assets/javascripts/buzz.js",
+			"settings":
+			{
+				"buffer_size": 4296,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/quiz/index.html",
+			"settings":
+			{
+				"buffer_size": 33,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/quiz_controller.rb",
+			"settings":
+			{
+				"buffer_size": 224,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/nyap/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+			"settings":
+			{
+				"buffer_size": 29349,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/nyap/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+			"settings":
+			{
+				"buffer_size": 525,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/question.rb",
+			"settings":
+			{
+				"buffer_size": 292,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/migrate/20141006235726_create_questions.rb",
+			"settings":
+			{
+				"buffer_size": 307,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 147.0,
+		"selected_items":
+		[
+			[
+				"ss java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"pacak",
+				"Package Control: List Packages"
+			],
+			[
+				"ss js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ss ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"ss sa",
+				"Set Syntax: Sass"
+			],
+			[
+				"ss css",
+				"Set Syntax: CSS"
+			],
+			[
+				"ss html",
+				"Set Syntax: HTML"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pc",
+				"Package Control: List Packages"
+			],
+			[
+				"ss javascript",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Snippet: box-",
+				"Snippet: box-sizing:border-box"
+			],
+			[
+				"Snippet: box",
+				"Snippet: box-sizing:border-box"
+			],
+			[
+				"pac",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pac c i",
+				"Package Control: Install Package"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"ss ejs",
+				"Set Syntax: EJS (<% and %>)"
+			],
+			[
+				"packac insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ss sass",
+				"Set Syntax: Sass"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/nyap/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/nyap/Sites/BuzzApp/app/views/quiz/index.html",
+		"/Users/nyap/Sites/BuzzApp/app/views/partials/_header.html",
+		"/Users/nyap/Sites/BuzzApp/app/views/buzz/results.html",
+		"/Users/nyap/Sites/BuzzApp/app/views/buzz/controls.html.erb",
+		"/Users/nyap/Sites/BuzzApp/app/views/buzz/index.html.erb",
+		"/Users/nyap/Sites/BuzzApp/app/views/buzz/index.html",
+		"/Users/nyap/Sites/BuzzApp/app/assets/javascripts/application.js",
+		"/Users/nyap/Sites/BuzzApp/app/views/buzz/controls.html",
+		"/Users/nyap/Sites/BuzzApp/app/views/buzz/_header.html",
+		"/Users/nyap/Sites/BuzzApp/Gemfile",
+		"/Users/nyap/Sites/BuzzApp/app/assets/javascripts/buzz.js",
+		"/Users/nyap/Sites/BuzzApp/app/controllers/buzz_controller.rb",
+		"/Users/nyap/Sites/BuzzApp/app/models/choice.rb",
+		"/Users/nyap/Sites/BuzzApp/app/models/question.rb",
+		"/Users/nyap/Sites/BuzzApp/app/models/topic.rb",
+		"/Users/nyap/Sites/BuzzApp/db/migrate/20141006235842_create_choices.rb",
+		"/Users/nyap/Sites/BuzzApp/db/migrate/20141006235726_create_questions.rb",
+		"/Users/nyap/Sites/BuzzApp/public/quiz.json",
+		"/Users/nyap/Sites/BuzzApp/config/routes.rb",
+		"/Users/nyap/Sites/BuzzApp/app/assets/stylesheets/buzz.css.scss",
+		"/Users/nyap/Sites/BuzzApp/db/schema.rb",
+		"/Users/nyap/Sites/BuzzApp/config/database.yml",
+		"/Users/nyap/Sites/BuzzApp/app/views/layouts/application.html.erb",
+		"/Users/nyap/Sites/BuzzApp/app/helpers/buzz_helper.rb",
+		"/Users/nyap/Sites/BuzzApp/db/migrate/20141004230005_create_buzzs.rb",
+		"/Users/nyap/Sites/BuzzApp/app/views/welcomes/index.html.erb",
+		"/Users/nyap/Sites/BuzzApp/app/controllers/welcomes_controller.rb",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/.gitignore",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/js/app.js",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/js/modules/talents-carousel.js",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/sass/_modules/_talents.scss",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/templates/_modules/homepage-talents.ftl",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/js/modules/modules-template.js",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/sass/_global/_typography.scss",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/templates/_modules/tiles.ftl",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/sass/_modules/_tiles-content.scss",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/sass/_modules/_tiles-layout.scss",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/sass/_global/_buttons.scss",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/sass/_global/_mixins.scss",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/sass/_modules/_careers.scss",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/js/pages/pages-template.js",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/dist/css/global-header-footer.css",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/templates/_layouts/global.ftl",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/sass/global.scss",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/templates/_modules/globalJS.ftl",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/templates/index.ftl",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/sass/_global/_fonts.scss",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/sass/_modules/_three-up.scss",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/sass/_modules/_hero-formatting.scss",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/templates/_modules/desktop-only-header.ftl",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/templates/_modules/header.ftl",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/dist/js/libs/slick.js",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/js/libs/slick.js",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/templates/_layouts/htl.ftl",
+		"/Users/nyap/Downloads/slick-master/slick/slick.js",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/js/utilities/utils.js",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/sass/_global/_slick.scss",
+		"/Users/nyap/Downloads/slick-master/slick/slick.scss",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/sass/_base.scss",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/sass/_modules/talents.scss",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/sass/_global/_dev.scss",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/sass/_modules/_tiles.scss",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/sass/_modules/_tiles-formatting.scss",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/templates/_modules/footer.ftl",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/sass/_modules/_hero.scss",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/sass/_global/_global-elements.scss",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/dist/css/global.css",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/fonts/selection.json",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/Seeing_this_is_good.txt",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/generated/css/global.css",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/dist/index.html",
+		"/Users/nyap/Sites/MorganStanley/ms_content/fragments/promo.xml",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/Gruntfile.js",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/templates/_modules/module.ftl",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/sass/_global/_header-footer.scss",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/sass/_global/_variables.scss",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/src/sass/_global/_tiles.scss",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/distpages/index.html",
+		"/Users/nyap/Sites/MorganStanley/ms_templates/distpages/toc/index.html",
+		"/Users/nyap/Sites/MorganStanley/ms_content/fragments/globals/HeaderNav.xml",
+		"/Users/nyap/Sites/MorganStanley/ms_content/pages/tiles.xml",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/public/css/sass/_offer-panel.scss",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/public/css/comcast-modules.css",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/README.md",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/Gemfile",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/public/css/sass/_collapsible-form.scss",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/public/css/sass/settings/_setup_mixins.scss",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/views/customize-buyflow/modules/CollapsibleForm/customize-tv-options.html",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/views/customize-buyflow/modules/CollapsibleForm/collapsible-form-package-options.html",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/views/customize-buyflow/modules/CollapsibleForm/customize-phone-options.html",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/views/customize-buyflow/modules/CollapsibleForm/account-info.html",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/views/customize-buyflow/modules/ReviewTable/review-table.html",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/server/models/buyflow.js",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/views/customize-buyflow/modules/CollapsibleForm/installation.html",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/views/customize-buyflow/modules/AppointmentSelector/appointment-selector.html",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/views/customize-buyflow/modules/CollapsibleForm/connect-your-tvs.html",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/views/customize-buyflow/modules/BuyFlowHeader/buyflow-header.html",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/views/modules/Spinner/index.html",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/views/modules/Spinner/index.htm,l",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/public/css/sass/_review-table.scss",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/public/scripts/modules/CollapsibleForm/CollapsibleForm.js",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/public/css/sass/_form-option.scss",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/public/css/sass/_appointment-selector.scss",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/views/customize-buyflow/modules/CollapsibleForm/professional-install.html",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/views/customize-buyflow/modules/CollapsibleForm/deposit-required.html",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/views/customize-buyflow/ProfessionalInstallWhite/index.html",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/views/customize-buyflow/ProfessionalInstall/index.html",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/public/css/sass/_radio-option.scss",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/public/css/sass/components/_buttons.scss",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/public/css/sass/components/_form-buttons.scss",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/views/home.html",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/public/css/comcast-modules.scss",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/public/css/notes.txt",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/public/css/sass/_buyflow-header.scss",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/public/css/sass/_add-remove-option.scss",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/views/customize-buyflow/modules/CollapsibleForm/credit-check.html",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/public/scripts/modules/BuyFlowHeader/BuyFlowHeader.js",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/views/customize-buyflow/modules/CollapsibleForm/form-header.html",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/public/css/sass/_add-receiver-option.scss",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/public/scripts/modules/AddServices/bootstrap.js",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/public/scripts/comcast-modules.js",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/public/css/sass/_expandable-option.scss",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/public/css/sass/_global.scss",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/public/css/ie.css",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/views/modules/Overlay/check-availability.html",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/public/scripts/tools/framework-utilities.js",
+		"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/public/css/sass/_package-option.scss"
+	],
+	"find":
+	{
+		"height": 66.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/",
+			"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/views/customize-buyflow",
+			"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/",
+			"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/views/customize-buyflow",
+			"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/",
+			"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/views",
+			"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/",
+			"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/views/customize-buyflow",
+			"",
+			"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/public/css/sass",
+			"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/",
+			"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/views/",
+			"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/views/utility-test",
+			"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app",
+			"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/public/css",
+			"/Users/nyap/Sites/Comcast/comcast-responsive-redesign/app/views/utility-test/modules",
+			"<open folders>",
+			"/Users/nyap/Sites/Comcast/comcast-wifi/templates-comcast",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"indent",
+			"yellow",
+			"margin",
+			"get_points",
+			"ajaxGet",
+			"ajaxUrl",
+			"ajax",
+			"nav ",
+			"			$.ajax({\n				url : '/start',\n				type: \"GET\"\n			});",
+			"255",
+			"action",
+			"1up",
+			"'",
+			":",
+			"}",
+			"{",
+			"=>",
+			"{\"",
+			"\"",
+			"'",
+			"add_points",
+			"@@active_player",
+			"main",
+			"start",
+			"3000",
+			"border: 0;",
+			"border-color: #fff;",
+			"paused",
+			"@buzzed_in = false",
+			"@@buzzed_in",
+			"@@game_paused",
+			"@@buzzed_in",
+			"@@game_pause",
+			"20px",
+			"delay",
+			"#buzz",
+			"#buzz'",
+			";\n",
+			"font-size: 5vw",
+			"fff",
+			"red",
+			"a",
+			"welcomes",
+			"Name",
+			"240",
+			"@include tablet-vw(30px);",
+			"5vw",
+			"22",
+			"@extend",
+			".tile-video",
+			".tile-2x2",
+			"carousel",
+			"8",
+			"fadeIn",
+			"Large",
+			"$lastSlideContent",
+			"$lastSlide ",
+			"$lastSlide",
+			"ExtraLargeViewport",
+			"Profile: Name",
+			"ss=\"tile\">",
+			"le\">",
+			"tile-dark\"",
+			"fadeInClonedSlideLast",
+			"bindLinks",
+			"registerJS",
+			"$talentsCarousel",
+			"20",
+			"15",
+			".talents-section",
+			"a:hover",
+			"5.3125em; /* 85/16 */",
+			"clearfix",
+			"50",
+			"45px",
+			"<a href=\"#0\">",
+			"temp-2x2-face.jpg\"",
+			"page.hero",
+			"page.",
+			"page.hero.bgColor",
+			"translate3d",
+			"_.slideWidth",
+			"width",
+			"translate3d",
+			"'",
+			"60",
+			"console",
+			"href=\"#0\"",
+			"div",
+			"slick-font-url(\"",
+			"<a",
+			"a",
+			"a href=\"#0\"",
+			"href=\"\"",
+			"http://placehold.it/380/380",
+			"tile-2x2",
+			"tile-dark",
+			".tile-video",
+			"section",
+			"alt",
+			"temp-2x1",
+			".tile-quote",
+			"10px",
+			"5",
+			"10px",
+			"15",
+			"46.37vw",
+			"</article>",
+			"<article",
+			".tiles-footer",
+			"important",
+			"#999",
+			"openMenu",
+			"9e9e9e",
+			"alt-state",
+			"round-btn",
+			"capsule",
+			"div",
+			"findDeclarations",
+			"cssRules",
+			"findProperties()",
+			"refresh",
+			"require ",
+			"$rule: font-size",
+			"3.2",
+			"quote",
+			"	height: 460px",
+			"height: 460px"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Jul",
+			"tile-tablet-2x",
+			"background-gray",
+			"header-link-title-attr",
+			"tabindex",
+			"option-label",
+			"<span class=\"toggle-arrow\"></span><h3>$1</h3>",
+			"<span class=\"toggle-arrow\"></span><h3>([ \\w]+)</h3>",
+			"$1",
+			"summary-dropdown-inner",
+			"summary-header-border",
+			"slide-up-wrapper",
+			".progress-nav-inner",
+			"fixed-wrapper",
+			"buyflow-header-inner",
+			".collapsible-section-header-inner",
+			"\"collapsible-section-header-inner",
+			"form-option-inner",
+			"collapsible-section-content",
+			"collapsible-section-header",
+			"collapsible-content-inner",
+			"option-inner",
+			"addRemoveHelpers",
+			"addRemove",
+			"add-remove-option",
+			"class=\"form-option radio-option",
+			"form-option radio-option",
+			"btn-form",
+			"<a href=\"#0\" class=\"toggle-expand\" title=\"Toggle Content\"><span class=\"toggle-arrow\"></span>",
+			"",
+			"oItem",
+			"quarter-quarter-half",
+			"data-section-required",
+			"with 2 Year Contract",
+			"form-header",
+			"clickEvt",
+			"removeOptionFromHeader",
+			"addOptionToHeader",
+			".btn-toggle-upgrade",
+			"btn-toggle-edit",
+			"btn-toggle-upgrade",
+			"toggle-upgrade",
+			".toggle-upgrade",
+			"package-highlight",
+			"package-desc",
+			"package-price",
+			"package-name",
+			"package-content",
+			"package",
+			"package-option",
+			".package-option",
+			"PackageOption",
+			"packageOption",
+			"AddRemovePackage",
+			"packageHelpers",
+			"radioHelpers.uncheckSiblingRadioOptions",
+			"radioHelpers.checkRadioOption",
+			"radioHelpers.scrollToRadioOptionTop",
+			"radioHelpers.checkRadioOption",
+			"serviceHelpers.uncheckSiblingRadioOptions",
+			"serviceHelpers.checkRadioOption",
+			"serviceHelpers.scrollToRadioOptionTop",
+			"serviceHelpers.removeServiceOption",
+			"serviceHelpers.addServiceOption",
+			"headerHelpers.removeServiceFromHeader",
+			"headerHelpers.addServiceToHeader",
+			"headerHelpers.parseServiceOption",
+			"formHelpers.enableNextButton",
+			"formHelpers.disableNextButton",
+			"formHelpers.checkAllRequiredSectionsComplete",
+			"formHelpers.markRequiredSectionComplete",
+			"checkAllRequiredSectionsComplete",
+			"Add to Cart",
+			"href=\"#0\"",
+			"no-summary",
+			" ",
+			"",
+			"{\\n",
+			"",
+			"<a href=\"\" title=\"See Agreement\">For the <em>first 12 months*</em></a> ",
+			"",
+			"href=\"#0\"",
+			"type=\"text\"",
+			"ZIP Code",
+			"toggleExpand",
+			"toggle-expand",
+			"collapsible-content",
+			"collapsibleHeader",
+			"collapsible-header",
+			"collapsibleSection",
+			"collapsible-section",
+			"CollapsibleForm",
+			"collapsible-form",
+			"btn-connect-tv",
+			"btn-cancel",
+			"btn-edit",
+			"btn-upgrade",
+			"btn-remove",
+			"btn-check",
+			"btn-add",
+			".btn-add",
+			".btn-check",
+			"customize-services",
+			".mobile-expand-btn",
+			".summary-dropdown",
+			".progress-nav",
+			".progress-nav-section",
+			"touchEvt",
+			"<span href=\"\" class=\"btn-circle circle-check\" title=\"Added\">Included</span>",
+			"<span href=\"\" class=\"btn-circle circle-check\" title=\"Included\">Included</span>",
+			"<span href=\"\" title=\"Added\" class=\"btn-circle circle-check\">Added</span>",
+			"CUI.Utils.debounce",
+			"CUI.Utils.throttle",
+			"Fixtures",
+			"Poles",
+			"ci-hand-heart",
+			"vjs-custom-skin",
+			"custom-skin",
+			"height: 26px",
+			"box-sizing(border-box)",
+			"sidebar",
+			":",
+			":$1$3",
+			":$1$2$3",
+			"\\n",
+			"{\\n",
+			"\\n",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/assets/javascripts/buzz.js",
+					"settings":
+					{
+						"buffer_size": 4296,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3066,
+								3066
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2285.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/quiz/index.html",
+					"settings":
+					{
+						"buffer_size": 33,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								33,
+								33
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controllers/quiz_controller.rb",
+					"settings":
+					{
+						"buffer_size": 224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								218,
+								218
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/nyap/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+					"settings":
+					{
+						"buffer_size": 29349,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4124,
+								4130
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1206.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/nyap/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+					"settings":
+					{
+						"buffer_size": 525,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								494,
+								494
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/models/question.rb",
+					"settings":
+					{
+						"buffer_size": 292,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								292,
+								292
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "db/migrate/20141006235726_create_questions.rb",
+					"settings":
+					{
+						"buffer_size": 307,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								268,
+								268
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"controls",
+				"app/views/buzz/controls.html"
+			],
+			[
+				"buzzhtml",
+				"app/views/buzz/index.html"
+			],
+			[
+				"talentsscss",
+				"ms_templates/src/sass/_modules/_talents.scss"
+			],
+			[
+				"talent",
+				"ms_templates/src/js/modules/talents-carousel.js"
+			],
+			[
+				"talents",
+				"ms_templates/src/templates/_modules/homepage-talents.ftl"
+			],
+			[
+				"tileslayou",
+				"ms_templates/src/sass/_modules/_tiles-layout.scss"
+			],
+			[
+				"tilesscss",
+				"ms_templates/src/sass/_modules/_tiles-content.scss"
+			],
+			[
+				"tilesftl",
+				"ms_templates/src/templates/_modules/tiles.ftl"
+			],
+			[
+				"careersscss",
+				"ms_templates/src/sass/_modules/_careers.scss"
+			],
+			[
+				"tileslayout",
+				"ms_templates/src/sass/_modules/_tiles-layout.scss"
+			],
+			[
+				"index",
+				"ms_templates/src/templates/index.ftl"
+			],
+			[
+				"indexftl",
+				"ms_templates/src/templates/index.ftl"
+			],
+			[
+				"globalftl",
+				"ms_templates/src/templates/_layouts/global.ftl"
+			],
+			[
+				"typo",
+				"ms_templates/src/sass/_global/_typography.scss"
+			],
+			[
+				"thre",
+				"ms_templates/src/sass/_modules/_three-up.scss"
+			],
+			[
+				"utils",
+				"ms_templates/src/js/utilities/utils.js"
+			],
+			[
+				"app.js",
+				"ms_templates/src/js/app.js"
+			],
+			[
+				"font",
+				"ms_templates/src/sass/_global/_fonts.scss"
+			],
+			[
+				"offer-panel",
+				"app/public/css/sass/_offer-panel.scss"
+			],
+			[
+				"mixin",
+				"app/public/css/sass/settings/_setup_mixins.scss"
+			],
+			[
+				"review",
+				"app/views/customize-buyflow/modules/ReviewTable/review-table.html"
+			],
+			[
+				"install",
+				"app/views/customize-buyflow/modules/CollapsibleForm/installation.html"
+			],
+			[
+				"customizephone",
+				"app/views/customize-buyflow/modules/CollapsibleForm/customize-phone-options.html"
+			],
+			[
+				"buyflow.js",
+				"app/server/models/buyflow.js"
+			],
+			[
+				"mixins",
+				"app/public/css/sass/settings/_setup_mixins.scss"
+			],
+			[
+				"collapsible",
+				"app/views/customize-buyflow/modules/CollapsibleForm/collapsible-form-package-options.html"
+			],
+			[
+				"buyflowheader",
+				"app/views/customize-buyflow/modules/BuyFlowHeader/buyflow-header.html"
+			],
+			[
+				"collap",
+				"app/public/scripts/modules/CollapsibleForm/CollapsibleForm.js"
+			],
+			[
+				"appoint",
+				"app/public/css/sass/_appointment-selector.scss"
+			],
+			[
+				"depoit",
+				"app/views/customize-buyflow/modules/CollapsibleForm/deposit-required.html"
+			],
+			[
+				"account",
+				"app/views/customize-buyflow/modules/CollapsibleForm/account-info.html"
+			],
+			[
+				"phone",
+				"app/views/customize-buyflow/modules/CollapsibleForm/customize-phone-options.html"
+			],
+			[
+				"collaps",
+				"app/views/customize-buyflow/modules/CollapsibleForm/collapsible-form-package-options.html"
+			],
+			[
+				"buyflowjs",
+				"app/server/models/buyflow.js"
+			],
+			[
+				"add-recei",
+				"app/public/css/sass/_add-receiver-option.scss"
+			],
+			[
+				"buyflowhea",
+				"app/public/scripts/modules/BuyFlowHeader/BuyFlowHeader.js"
+			],
+			[
+				"collapsibl",
+				"app/public/scripts/modules/CollapsibleForm/CollapsibleForm.js"
+			],
+			[
+				"customize",
+				"app/views/customize-buyflow/modules/CollapsibleForm/customize-phone-options.html"
+			],
+			[
+				"connect",
+				"app/views/customize-buyflow/modules/CollapsibleForm/connect-your-tvs.html"
+			],
+			[
+				"radio-option",
+				"app/public/css/sass/_radio-option.scss"
+			],
+			[
+				"package-option",
+				"app/public/css/sass/_package-option.scss"
+			],
+			[
+				"buyf",
+				"app/public/scripts/modules/BuyFlowHeader/BuyFlowHeader.js"
+			],
+			[
+				"check",
+				"app/views/modules/Overlay/check-availability.html"
+			],
+			[
+				"buyflow",
+				"app/public/css/sass/_buyflow-header.scss"
+			],
+			[
+				"packageoption",
+				"app/public/css/sass/_package-option.scss"
+			],
+			[
+				"test-carousel",
+				"app/views/utility-test/modules/Carousels/test-carousel.html"
+			],
+			[
+				"launch",
+				"app/views/customize-buyflow/modules/LaunchPage/launch-xfinity.html"
+			],
+			[
+				"overlayscss",
+				"app/public/css/sass/_overlay.scss"
+			],
+			[
+				"deal",
+				"app/public/css/sass/_deal_finder.scss"
+			],
+			[
+				"",
+				"karma.conf.js"
+			],
+			[
+				"coll",
+				"app/public/scripts/modules/CollapsibleForm/CollapsibleForm.js"
+			],
+			[
+				"radio",
+				"app/public/css/sass/_radio-option.scss"
+			],
+			[
+				"installation",
+				"app/views/customize-buyflow/modules/CollapsibleForm/installation.html"
+			],
+			[
+				"collapsi",
+				"app/public/css/sass/_collapsible-form.scss"
+			],
+			[
+				"credit",
+				"app/views/customize-buyflow/modules/CollapsibleForm/credit-check.html"
+			],
+			[
+				"success",
+				"app/views/customize-buyflow/modules/SuccessBar/credit-check-approved.html"
+			],
+			[
+				"deposit",
+				"app/views/customize-buyflow/modules/CollapsibleForm/deposit-required.html"
+			],
+			[
+				"customizetv",
+				"app/views/customize-buyflow/modules/CollapsibleForm/connect-your-tvs.html"
+			],
+			[
+				"appointment",
+				"app/views/customize-buyflow/modules/AppointmentSelector/appointment-selector.html"
+			],
+			[
+				"buflowj",
+				"app/server/models/buyflow.js"
+			],
+			[
+				"overlay",
+				"app/public/scripts/modules/Overlay/Overlay.js"
+			],
+			[
+				"collapsscss",
+				"app/public/css/sass/_collapsible-form.scss"
+			],
+			[
+				"credi",
+				"app/views/customize-buyflow/modules/CollapsibleForm/credit-check.html"
+			],
+			[
+				"offer",
+				"app/views/modules/OfferCards/offer-card.html"
+			],
+			[
+				"buyflojs",
+				"app/server/models/buyflow.js"
+			],
+			[
+				"custtv",
+				"app/views/customize-buyflow/modules/CollapsibleForm/customize-tv-options.html"
+			],
+			[
+				"succes",
+				"app/public/scripts/modules/SuccessBar/SuccessBar.js"
+			],
+			[
+				"form-foo",
+				"app/views/customize-buyflow/modules/CollapsibleForm/form-footer.html"
+			],
+			[
+				"collascss",
+				"app/public/css/sass/_collapsible-form.scss"
+			],
+			[
+				"launch-pa",
+				"app/public/css/sass/_launch-page.scss"
+			],
+			[
+				"buyflo",
+				"app/public/scripts/modules/BuyFlowHeader/BuyFlowHeader.js"
+			],
+			[
+				"collas",
+				"app/public/css/sass/_collapsible-form.scss"
+			],
+			[
+				"installationhtml",
+				"app/views/customize-buyflow/modules/CollapsibleForm/installation.html"
+			],
+			[
+				"reviewscss",
+				"app/public/css/sass/_review-table.scss"
+			],
+			[
+				"collapsib",
+				"app/public/scripts/modules/CollapsibleForm/CollapsibleForm.js"
+			],
+			[
+				"collapscss",
+				"app/public/css/sass/_collapsible-form.scss"
+			],
+			[
+				"connecttv",
+				"app/views/modules/Overlay/connect-another-tv.html"
+			],
+			[
+				"test-offer-card",
+				"app/views/utility-test/modules/OfferCards/test-offer-card.html"
+			],
+			[
+				"footer",
+				"app/views/customize-buyflow/modules/CollapsibleForm/form-footer.html"
+			],
+			[
+				"dropdown",
+				"app/public/css/sass/_dropdown.scss"
+			],
+			[
+				"servicescss",
+				"app/public/css/sass/_service-option.scss"
+			],
+			[
+				"buyfl",
+				"app/public/scripts/modules/BuyFlowHeader/BuyFlowHeader.js"
+			],
+			[
+				"radioscss",
+				"app/public/css/sass/_radio-option.scss"
+			],
+			[
+				"collapsibleform",
+				"app/views/customize-buyflow/modules/CollapsibleForm/collapsible-form-service-options.html"
+			],
+			[
+				"buyflowscss",
+				"app/public/css/sass/_buyflow-header.scss"
+			],
+			[
+				"buyflow-header",
+				"app/views/modules/BuyFlowHeader/buyflow-header.html"
+			],
+			[
+				"collapjs",
+				"app/public/scripts/modules/CollapsibleForm/CollapsibleForm.js"
+			],
+			[
+				"colla",
+				"app/public/scripts/modules/CollapsibleForm/CollapsibleForm.js"
+			],
+			[
+				"reviewhtml",
+				"app/views/customize-buyflow/Review/index.html"
+			],
+			[
+				"serviceoption",
+				"app/public/css/sass/_service-option.scss"
+			],
+			[
+				"radiooption",
+				"app/public/css/sass/_radio-option.scss"
+			],
+			[
+				"credit-cec",
+				"app/views/customize-buyflow/modules/CollapsibleForm/credit-check.html"
+			],
+			[
+				"phon",
+				"app/views/customize-buyflow/modules/CollapsibleForm/customize-phone-options.html"
+			],
+			[
+				"account-in",
+				"app/views/customize-buyflow/modules/CollapsibleForm/account-info.html"
+			],
+			[
+				"credit-che",
+				"app/views/customize-buyflow/modules/CollapsibleForm/credit-check.html"
+			],
+			[
+				"offer-cardscss",
+				"app/public/css/sass/_offer-cards.scss"
+			],
+			[
+				"customize-phone",
+				"app/views/customize-buyflow/modules/CollapsibleForm/customize-phone-options.html"
+			],
+			[
+				"phone-options",
+				"app/views/customize-buyflow/modules/CollapsibleForm/customize-phone-options.html"
+			],
+			[
+				"buyfloscss",
+				"app/public/css/sass/_buyflow-header.scss"
+			],
+			[
+				"buyfscss",
+				"app/public/css/sass/_buyflow-header.scss"
+			],
+			[
+				"customizescss",
+				"app/public/css/sass/_customize-services.scss"
+			],
+			[
+				"buyflorscss",
+				"app/public/css/sass/_buyflow-header.scss"
+			],
+			[
+				"customizeserv",
+				"app/public/scripts/modules/CustomizeServices/CustomizeServices.js"
+			],
+			[
+				"customize-",
+				"app/public/css/sass/_customize-services.scss"
+			],
+			[
+				"localis",
+				"app/public/css/sass/_localizing.scss"
+			],
+			[
+				"utilit",
+				"app/public/scripts/lib/Utilities.js"
+			],
+			[
+				"buyfloboo",
+				"app/public/scripts/tools/buyflow-bootstrap.js"
+			],
+			[
+				"add",
+				"app/public/css/sass/_add-services.scss"
+			],
+			[
+				"standard",
+				"app/public/css/sass/components/_standard-content-block.scss"
+			],
+			[
+				"carouselscss",
+				"app/public/css/sass/_carousel.scss"
+			],
+			[
+				"drop",
+				"app/views/modules/Dropdown/dropdown.html"
+			],
+			[
+				"connect-your",
+				"app/views/modules/AddServices/connect-your-tvs.html"
+			],
+			[
+				"local",
+				"app/public/css/sass/_localizing.scss"
+			],
+			[
+				"service-opt",
+				"app/public/css/sass/components/_service-option.scss"
+			],
+			[
+				"add-serv",
+				"app/public/css/sass/_add-services.scss"
+			],
+			[
+				"buyflow-",
+				"app/public/css/sass/_buyflow-header.scss"
+			],
+			[
+				"offerscss",
+				"app/public/css/sass/_offer-cards.scss"
+			],
+			[
+				"buyflod-heade",
+				"app/views/modules/BuyFlowHeader/buyflow-header.html"
+			],
+			[
+				"_local",
+				"app/public/css/sass/_localizing.scss"
+			],
+			[
+				"router",
+				"app/server/router.js"
+			],
+			[
+				"outdoorscss",
+				"public/_sass/_modules/_outdoor-lighting/outdoor-lighting.scss"
+			],
+			[
+				"carousellogin",
+				"public/_sass/_modules/carousel-login.scss"
+			],
+			[
+				"faq",
+				"public/_sass/_modules/faq.scss"
+			],
+			[
+				"accordion",
+				"public/js/modules/accordion.js"
+			],
+			[
+				"careerpat",
+				"public/_partials/modules/career-paths.cshtml"
+			],
+			[
+				"careers",
+				"de/section-careers.cshtml"
+			],
+			[
+				"outd",
+				"public/_partials/modules/outdoor-lighting.cshtml"
+			],
+			[
+				"careerscss",
+				"public/_sass/_modules/_careers/career-paths.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 246.0,
+	"status_bar_visible": true
+}

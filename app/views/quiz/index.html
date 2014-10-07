@@ -1,0 +1,28 @@
+<%= render '/partials/header' %>
+
+<section class="topics">
+	<h2 class="header-topic">Topics</h2>
+	<% @topics.each do |topic| %>
+		<button class="btn-topic" data-id="<%=topic.id%>"><%=topic.name%></button>
+	<% end %>
+	<button class="btn-topic btn-add">+ add topic</button>
+</section>
+<section class="questions _inactive">
+	<button class="btn-back" style="display:none;">back</button>
+	<button class="btn-next">next</button>
+	<p class="start-message">choose topic to start</p>
+	<div class="quiz">
+<!-- 		<li class="_active">
+			<h3 class="header-question">Question #1</h3>
+			<p>Does setting margin-top and margin-bottom have an affect on an inline element?</p>
+		</li>
+		<li>
+			<h3 class="header-question">Question #2</h3>
+			<p>Does setting margin-top and margin-bottom have an affect on an inline element?</p>
+		</li>
+		<li>
+			<h3 class="header-question">Question #3</h3>
+			<p>Does setting margin-top and margin-bottom have an affect on an inline element?</p>
+		</li> -->
+	</div>
+</section>

@@ -107,6 +107,107 @@ button {
 	margin-top: 20px;
 	cursor: pointer;
 }
+.btn-next,
+.btn-back {
+	padding: 3px 10px;
+	width: inherit;
+	position: absolute;
+	bottom: 25px;
+	font-size: 15px;
+	margin: 0 0 6px 5px;
+	border: 0;
+	border-radius: 0;
+	background-color: rgba(255,255,255,0.1);
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+.btn-next {
+	right: 20px;
+}
+.btn-back {
+	left: 20px;
+}
+.btn-topic {
+	padding: 3px 10px;
+	width: inherit;
+	display: inline-block;
+	font-size: 15px;
+	margin: 0 0 6px 5px;
+
+	&._active {
+		border-color: #0089FD;
+		background-color: #0089FD;
+	}
+}
+.btn-add {
+	border: 1px dotted #fff;
+	background-color: transparent;
+}
+.header-topic {
+	float: left;
+	padding-right: 20px;
+	margin: 0;
+	font-size: 20px;
+	line-height: 25px;
+}
+.questions {
+	position: relative;
+	margin-top: 60px;
+	border-radius: 20px 5px;
+	border: 6px solid rgba(255,255,255,0.7);
+	background-color: rgba(255,255,255,0.15);
+	padding: 60px 40px 90px;
+	min-height: 40vh;
+
+	h3 {
+		margin: 0;
+		color: #c4c4c4;
+		font-family: Verdana;
+		font-size: 3vmin;
+	}
+
+	&._inactive {
+		.btn-next {
+			display: none;
+		}
+		.start-message {
+			display: block;
+		}
+	}
+}
+.start-message {
+	display: none;
+	opacity: 0.4;
+	font-size: 9vmin;
+	font-weight: bold;
+	width: 100%;
+	left: 0;
+	position: absolute;
+	text-align: center;
+	transform: translateY(50%);
+}
+ul {
+	padding: 0;
+}
+li {
+	list-style-type: none;
+	display: none;
+
+	&._active {
+		display: block;
+	}
+	p {
+		font-size: 6.2vmin;
+		text-align: left;
+		font-family: Times;
+		margin: 20px 0;
+	}
+
+}
+
+// results table
 table {
 	border-collapse: collapse;
 	text-align: left;
@@ -249,11 +350,33 @@ td {
 	section {
 		padding: 0 10px;
 	}
+	.topics {
+		text-align: center;
+	}
+	.btn-topic {
+		font-size: 12px;
+		margin-bottom: 0;
+	}
+	ul {
+		margin: 10px 0;
+	}
+	.questions {
+		margin: 20px 10px;
+		padding: 20px 15px 70px;
+		min-height: inherit;
+	}
 	h1 {
 		border: 0;
 		text-align: center;
 		opacity: 0.8;
 		float: none;
+	}
+	h2 {
+		font-size: 18px;
+		margin: 0;
+	}
+	.header-topic {
+		display: none;
 	}
 	.mobile-hidden {
 		display: none;

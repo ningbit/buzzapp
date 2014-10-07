@@ -1,4 +1,4 @@
-<%= render 'header' %>
+<%= render '/partials/header' %>
 
 <section class="controls<%= ' game-paused' if not @game_started %>">
 	<div class="row-col-2">
@@ -7,8 +7,13 @@
 	</div>
 	<button class="reset"> reset buzzer </button>
 	<div class="row-col-3">
-		<button class="start"> start game </button>
+		<% if @game_started %>
+		<button class="start"> game started </button>
 		<button class="pause"> pause game </button>
+		<% else %>
+		<button class="start"> start game </button>
+		<button class="pause"> paused </button>
+		<% end %>
 		<button class="scores"> scores </button>
 	</div>
 </section>
