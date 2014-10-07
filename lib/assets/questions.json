@@ -121,16 +121,13 @@
 				},
 				{
 					"title": "Arrange the following in order of selection precedence:",
-					"list": ["#item { color: red;} ","ul li { color: blue}", "ul li.item { color: green}", ".item.blue { color: yellow}"]
+					"options": ["#item { color: red;} ","ul li { color: blue}", "ul li.item { color: green}", ".item.blue { color: yellow}"]
 				}
 			],
 			"credit":
 			{
 				"see-more": "Visit http://davidshariff.com/quiz/ for more CSS questions"
 			}
-		},
-		"Javascript": {},
-		"Sublime Text 2": {},
-		"Ruby": {}
+		}
 	}
 }

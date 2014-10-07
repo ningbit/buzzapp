@@ -1,10 +1,6 @@
 BuzzApp::Application.routes.draw do
 
 
-
-
-
-
   resources :topics do
 
     resources :questions
@@ -23,6 +19,8 @@ BuzzApp::Application.routes.draw do
   get '/controls', :to => 'buzz#controls'
 
   get '/quiz', :to => 'quiz#index'
+
+  get '/create', :to => 'quiz#create'
 
   # buzz actions
 

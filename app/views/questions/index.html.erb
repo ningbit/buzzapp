@@ -1,8 +1,13 @@
 <ul>
 <% @questions.each_with_index do |question,index| %>
-<li class="<%= '_active' if index == 0%>">
-	<h3 class="header-question">Question #<%= index+1%></h3>
-	<p><%= question.title%></p>
+<li class="question<%= ' _active' if index == 0%>">
+	<h3 class="question-header">Question #<%= index+1%></h3>
+	<p class="question-text"><%= question.title%></p>
+	<span class="pagination"><%= index+1%> of <%= @questions.length%></span>
+	<% if not question.answer.nil? %>
+	<button class="btn-answer">answer</button>
+	<p class="answer">(<%= question.answer %>)</p>
+	<% end %>
 </li>
 <%end%>
 </ul>

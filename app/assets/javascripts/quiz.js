@@ -15,6 +15,8 @@
 
 			}).done(function(data){
 				$questions.removeClass('_inactive');
+				$quiz.find('ul').remove();
+				$('.btn-back').hide();
 				$quiz.append(data);
 
 			}).fail(function(x,t,m){
@@ -61,6 +63,14 @@
 				}
 
 				$('li._active').removeClass('_active').prev('li').addClass('_active');
+			})
+			.on('click','.btn-answer',function(){
+
+				var $activeQ = $('li._active');
+
+				$activeQ.find('.answer').show();
+				$(this).hide();
+
 			});
 
 	});

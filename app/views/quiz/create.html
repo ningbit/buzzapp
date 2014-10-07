@@ -1,0 +1,9 @@
+<%= render '/partials/header' %>
+
+<section class="topics">
+	<h2 class="header-topic">Topics</h2>
+	<% @topics.each do |topic| %>
+		<button class="btn-topic" data-id="<%=topic.id%>"><%=topic.name%></button>
+	<% end %>
+	<button class="btn-topic btn-add">+ add topic</button>
+</section>

@@ -10,4 +10,8 @@ class QuizController < ApplicationController
 		end
 	end
 
+	def create
+		@topics = Topic.all
+		@questions = Question.all
+	end
 end

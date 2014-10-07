@@ -108,7 +108,8 @@ button {
 	cursor: pointer;
 }
 .btn-next,
-.btn-back {
+.btn-back,
+.btn-answer {
 	padding: 3px 10px;
 	width: inherit;
 	position: absolute;
@@ -127,7 +128,12 @@ button {
 	right: 20px;
 }
 .btn-back {
-	left: 20px;
+	right: 90px;
+}
+.btn-answer {
+	bottom: inherit;
+	top: 30px;
+	right: 20px;
 }
 .btn-topic {
 	padding: 3px 10px;
@@ -177,6 +183,14 @@ button {
 		}
 	}
 }
+.answer {
+	display: none;
+	color: gold;
+	margin: 0;
+	padding-left: 4vmin;
+	font-size: 3vmin;
+	font-family: Times;
+}
 .start-message {
 	display: none;
 	opacity: 0.4;
@@ -191,20 +205,25 @@ button {
 ul {
 	padding: 0;
 }
-li {
+.question {
 	list-style-type: none;
 	display: none;
 
 	&._active {
 		display: block;
 	}
-	p {
-		font-size: 6.2vmin;
-		text-align: left;
-		font-family: Times;
-		margin: 20px 0;
-	}
-
+}
+.question-text {
+	font-size: 6.2vmin;
+	text-align: left;
+	font-family: Times;
+	margin: 20px 0;
+}
+.pagination {
+	position: absolute;
+	bottom: 35px;
+	right: 30;
+	font-size: 14px;
 }
 
 // results table
@@ -298,7 +317,10 @@ td {
 		background-color: rgba(255,255,255,0.2);
 	}
 }
+.start,.pause {
+	border-width: 3px;
 
+}
 .wrong {
 	background-color: $red;
 }
@@ -362,8 +384,25 @@ td {
 	}
 	.questions {
 		margin: 20px 10px;
-		padding: 20px 15px 70px;
-		min-height: inherit;
+		padding: 20px 15px;
+		min-height: 200px;
+		border-width: 3px;
+	}
+	.start-message {
+		position: static;
+		margin-top: 60px;
+	}
+	.btn-next,
+	.btn-back,
+	.btn-answer {
+		font-size: 10px;
+	}
+	.question-text {
+		margin: 40px 0 15px;
+	}
+	.answer {
+		font-size: 12px;
+		padding-left: 0;
 	}
 	h1 {
 		border: 0;
@@ -392,8 +431,11 @@ td {
 	}
 	.wrong {
 		background-color: $red;
-		margin-left: 5%;
 	}
+	.right {
+		margin-right: 5%;
+	}
+
 }
 
 
