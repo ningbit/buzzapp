@@ -116,7 +116,7 @@
 					"options": ["Yes","No"]
 				},
 				{
-					"title": "Does setting padding-top and padding-bottom have an affect on an inline element?",
+					"title": "Does setting padding-top and padding-bottom have an effect on an inline element?",
 					"options": ["Yes","No"]
 				},
 				{

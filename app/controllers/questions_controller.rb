@@ -1,5 +1,9 @@
+require 'eventmachine'
+
 class QuestionsController < ApplicationController
    before_filter :get_topic_id
+
+   @@speed = 250
 
   def get_topic_id
     @topic = Topic.find(params[:topic_id])
@@ -18,10 +22,9 @@ class QuestionsController < ApplicationController
   def show
     @question = Question.find(params[:id])
 
-    respond_to do |format|
-      format.html # show.html.erb
-      format.json { render json: @question }
-    end
+    speak @question.title
+
+    render :text => 'Speaking', :status => '200'
   end
 
   # GET /questions/new
@@ -81,6 +84,15 @@ class QuestionsController < ApplicationController
     respond_to do |format|
       format.html { redirect_to questions_url }
       format.json { head :no_content }
+    end
+  end
+
+  def speak(string)
+
+    EM.run do
+      EM.defer( proc do
+        eval "system \"say #{string} -r #{@@speed}\""
+      end)
     end
   end
 end

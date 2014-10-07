@@ -17,7 +17,8 @@
 				$questions.removeClass('_inactive');
 				$quiz.find('ul').remove();
 				$('.btn-back').hide();
-				$quiz.append(data);
+				var url = $quiz.append(data).find('li._active').data('url');
+				speakUrl(url);
 
 			}).fail(function(x,t,m){
 
@@ -27,6 +28,13 @@
 					} else if ( x.status === 401 ) {
 					}
 
+			});
+		}
+
+		function speakUrl(url){
+			$.ajax({
+				url: url,
+				type: "GET",
 			});
 		}
 
@@ -44,13 +52,17 @@
 			.on('click', '.btn-next', function(){
 				var $activeQ = $('li._active');
 
-				if ( $activeQ.index() == $('li').length-2 ) {
+				console.log($quiz.find('.question').length);
+
+				if ( $activeQ.index() == $quiz.find('.question').length-2 ) {
 					$(this).hide();
 				} else {
 					$('.btn-back').show();
 				}
 
-				$activeQ.removeClass('_active').next('li').addClass('_active');
+				var qUrl = $activeQ.removeClass('_active').next('li').addClass('_active').data('url');
+
+				speakUrl(qUrl);
 
 			})
 			.on('click','.btn-back', function(){

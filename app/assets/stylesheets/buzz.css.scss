@@ -183,10 +183,20 @@ button {
 		}
 	}
 }
+.choices {
+	margin-left: 25px;
+	font-family: Times;
+	list-style-type: disc;
+
+	li {
+		line-height: 1.3;
+		font-size: 3vmin;
+	}
+}
 .answer {
 	display: none;
 	color: gold;
-	margin: 0;
+	margin: 10px 0 0;
 	padding-left: 4vmin;
 	font-size: 3vmin;
 	font-family: Times;
@@ -217,7 +227,7 @@ ul {
 	font-size: 6.2vmin;
 	text-align: left;
 	font-family: Times;
-	margin: 20px 0;
+	margin: 20px 0 10px;
 }
 .pagination {
 	position: absolute;

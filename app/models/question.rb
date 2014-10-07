@@ -34,4 +34,8 @@ class Question < ActiveRecord::Base
 			end
 		end
 	end
+
+	def choices
+		[self.choice_a, self.choice_b, self.choice_c, self.choice_d, self.choice_e].compact
+	end
 end
