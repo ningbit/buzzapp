@@ -37,7 +37,7 @@ header {
 		height: 1px;
 		width: 100%;
 		position: absolute;
-		top: 40px;
+		top: 45px;
 		left: 0;
 		background-color: #fff;
 	}
@@ -99,13 +99,16 @@ label {
 button {
 	background-color: rgba(255,255,255,0.2);
 	border: 1px solid rgba(255,255,255,0.4);
-	padding: 12vmin 0;
+	padding: 18vmin 0;
 	width: 100%;
 	color: #fff;
 	border-radius: 5px;
 	font-size: 10vmin;
 	margin-top: 20px;
 	cursor: pointer;
+}
+#buzzer {
+	border-width: 5px;
 }
 .btn-next,
 .btn-back,
@@ -241,11 +244,13 @@ table {
 	border-collapse: collapse;
 	text-align: left;
 	line-height: 2em;
-	font-size: 5vmin;
+	font-size: 6vmin;
 }
 caption {
 	text-align: left;
-	padding-bottom: 10px;
+	padding-bottom: 3vmin;
+	font-size: 4.5vmin;
+	line-height: 1em;
 }
 th,
 td {
@@ -291,10 +296,18 @@ td {
 			border-width: 3px;
 		}
 	}
+	.start {
+		background-color: rgba(224,224,224,0);
+		border-color: $green;
+		border-width: 3px;
+		cursor: default
+	}
 
 	button {
-		font-size: 6vmin;
-		padding: 5vmin 0;
+		font-size: 8vmin;
+		padding: 7vmin 0;
+		border-color: rgba(255,255,255,0.86);
+		border-width: 3px;
 	}
 }
 .row-col-2 {
@@ -312,7 +325,7 @@ td {
 		float: left;
 		width: 31.33333333%;
 		margin-left: 3%;
-		font-size: 4vmin;
+		font-size: 5vmin;
 
 		&:first-child {
 			margin-left: 0;
@@ -327,18 +340,8 @@ td {
 		background-color: rgba(255,255,255,0.2);
 	}
 }
-.start,.pause {
-	border-width: 3px;
-
-}
 .wrong {
 	background-color: $red;
-}
-.start {
-	background-color: rgba(224,224,224,0);
-	border-color: $green;
-	border-width: 3px;
-	cursor: default
 }
 .right {
 	background-color: $green;
@@ -381,6 +384,15 @@ td {
 	}
 	section {
 		padding: 0 10px;
+	}
+	.controls {
+		margin-top: 10px;
+		button {
+			margin-top: 10px;
+		}
+		.start,.pause,.scores {
+			min-height: 28vmin;
+		}
 	}
 	.topics {
 		text-align: center;
