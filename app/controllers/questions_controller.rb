@@ -103,7 +103,7 @@ class QuestionsController < ApplicationController
 
   def speak(string)
 
-    string = string[/[a-zA-Z0-9\s]*/]
+    string = string[/[a-zA-Z0-9\s+-?!\&\*\=\,\#$%]*/]
 
     EM.run do
       EM.defer( proc do
