@@ -46,26 +46,25 @@ class BuzzController < ApplicationController
 
 		if @@game_started
 
-			same_player = @@active_player == params[:name][/[a-zA-Z0-9\s]*/] ?
-				true : false
-
-		    @@active_player = params[:name][/[a-zA-Z0-9\s]*/]
-		    @@active_team = params[:team][/[a-zA-Z0-9\s]*/]
-		    string = !same_player ?
-		    	"#{@@active_player} from Team #{@@active_team} has buzzed in" :
-		    	"#{@@active_player} from Team #{@@active_team}"
-
 			if @@buzzed_in == true
 
 				render :text => 'Too Late', :status => '403'
 
 			else
+				@@buzzed_in = true
+
+				same_player = @@active_player == params[:name][/[a-zA-Z0-9\s]*/] ?
+					true : false
+
+			    @@active_player = params[:name][/[a-zA-Z0-9\s]*/]
+			    @@active_team = params[:team][/[a-zA-Z0-9\s]*/]
+			    string = !same_player ?
+			    	"#{@@active_player} from Team #{@@active_team} has buzzed in" :
+			    	"#{@@active_player} from Team #{@@active_team}"
 
 			    respond_to do |format|
 			       format.html { redirect_to buzz_url }
 			    end
-
-			    @@buzzed_in = true
 
 			    speak string
 
@@ -154,7 +153,7 @@ class BuzzController < ApplicationController
 
 			add_points
 
-			reset_buzzer
+			reset_buzzer(1.8);
 
 			play_sound("right");
 
@@ -182,7 +181,7 @@ class BuzzController < ApplicationController
 
 			play_sound("wrong");
 
-			reset_buzzer
+			reset_buzzer(1.8);
 
 			string = [
 				"Team #{@@active_team} loses 1 point",
@@ -243,8 +242,13 @@ class BuzzController < ApplicationController
 
 	end
 
-	def reset_buzzer
-		@@buzzed_in = false
+	def reset_buzzer(delay=0)
+	    EM.run do
+	    	EM.defer( proc do
+	    		sleep delay
+	    		@@buzzed_in = false
+	    	end)
+		end
 	end
 
 	def add_points

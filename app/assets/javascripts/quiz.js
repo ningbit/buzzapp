@@ -3,7 +3,8 @@
 	$(document).ready(function(){
 
 		var $body = $('body'),
-			$form = $('#form'),
+			$createQuestion = $('#create-question'),
+			$create = $('#create'),
 			$questions = $('.questions'),
 			$quiz = $('.quiz'),
 			DELAY = 3000;
@@ -38,7 +39,7 @@
 			});
 		}
 
-		$('.btn-topic').not('.btn-add').on('click', function(){
+		$('.btn-topic').not('.btn-add').not('.inactive').on('click', function(){
 			var $topicBtn = $(this);
 
 			$('.btn-topic._active').removeClass('_active');
@@ -47,6 +48,23 @@
 			getAjax($topicBtn);
 
 		});
+
+		function submitComplete(){
+			$createQuestion.find('input[type=text]').val('');
+			$create.html('success').addClass('success');
+
+			setTimeout(function(){
+				$create.removeClass('success').html('create');
+			}, 2000)
+		}
+
+		function submitFail(){
+			$create.html('failed').addClass('fail');
+
+			setTimeout(function(){
+				$create.removeClass('fail').html('create');
+			}, 2000)
+		}
 
 		$questions
 			.on('click', '.btn-next', function(){
@@ -84,6 +102,48 @@
 				$(this).hide();
 
 			});
+
+		$('#create-question').find('input[type=text]').on('keydown',function(e){
+
+			if(e.keyCode == 13){
+				e.preventDefault();
+			}
+		});
+
+		$createQuestion.submit(function(e) {
+
+			var postData = $(this).serializeArray();
+			var formURL = $(this).attr("action");
+			$.ajax({
+				url : formURL,
+				type: "POST",
+				data : postData,
+
+			}).done(function(data){
+
+				console.log(data);
+				submitComplete();
+
+			}).fail(function(x, t, m){
+
+				submitFail();
+
+			});
+
+			e.preventDefault(); //STOP default action
+		});
+
+		function bindCreate() {
+			$create.on('click', function(e){
+
+				e.preventDefault();
+
+				$createQuestion.submit();
+
+			});
+		}
+
+		bindCreate();
 
 	});
 

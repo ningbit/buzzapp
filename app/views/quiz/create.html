@@ -1,9 +1,45 @@
 <%= render '/partials/header' %>
 
 <section class="topics">
-	<h2 class="header-topic">Topics</h2>
+	<h2 class="header-topic">Select a topic</h2>
 	<% @topics.each do |topic| %>
-		<button class="btn-topic" data-id="<%=topic.id%>"><%=topic.name%></button>
+		<%if topic.id == 1 %>
+			<button class="btn-topic _active"><%= topic.name %></button>
+		<% else %>
+		<button class="btn-topic inactive" data-id="<%=topic.id%>"><%=topic.name%></button>
+		<% end %>
 	<% end %>
 	<button class="btn-topic btn-add">+ add topic</button>
+</section>
+<section class="add-a-question">
+	<h2>Add a question:</h2>
+	<p class="optional">(optional fields)</p>
+	<form method="POST" action="/create" id="create-question">
+		<fieldset>
+			<label for="title" class="mobile-hidden">Question</label>
+			<input type="text" placeholder="Which vegetable has the most vitamin A?" name="title" id="title" value="">
+		</fieldset>
+		<fieldset>
+			<label for="choice_a" class="mobile-hidden choice optional">A)</label>
+			<input type="text" placeholder="Carrots" name="choice_a" id="choice_a" value="">
+		</fieldset>
+		<fieldset>
+			<label for="choice_b" class="mobile-hidden choice optional">B)</label>
+			<input type="text" placeholder="Celery" name="choice_b" id="choice_b" value="">
+		</fieldset>
+		<fieldset>
+			<label for="choice_c" class="mobile-hidden choice optional">C)</label>
+			<input type="text" placeholder="Broccoli" name="choice_c" id="choice_c" value="">
+		</fieldset>
+		<fieldset>
+			<label for="choice_d" class="mobile-hidden choice optional">D)</label>
+			<input type="text" placeholder="Spinach" name="choice_d" id="choice_d" value="">
+		</fieldset>
+		<fieldset>
+			<label for="answer" class="mobile-hidden optional">Answer</label>
+			<input type="text" placeholder="(optional)" name="answer" id="answer" value="">
+		</fieldset>
+		<input type="hidden" name="topic_id" id="topic_id" value="1">
+	</form>
+	<button id="create"> create </button>
 </section>

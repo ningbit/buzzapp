@@ -6,13 +6,15 @@
 	<% if not question.choices.empty? %>
 		<ul class="choices">
 			<% question.choices.each do |choice| %>
+				<% if not choice.empty? %>
 				<li><%= choice %></li>
+				<% end %>
 			<%end%>
 		</ul>
 
 	<% end %>
 	<span class="pagination"><%= index+1%> of <%= @questions.length%></span>
-	<% if not question.answer.nil? %>
+	<% if !question.answer.nil? && !question.answer.empty? %>
 	<button class="btn-answer">answer</button>
 	<p class="answer">(<%= question.answer %>)</p>
 	<% end %>

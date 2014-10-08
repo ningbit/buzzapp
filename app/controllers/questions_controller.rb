@@ -30,11 +30,25 @@ class QuestionsController < ApplicationController
   # GET /questions/new
   # GET /questions/new.json
   def new
-    @question = Question.new
+    # @question = Question.new
 
-    respond_to do |format|
-      format.html # new.html.erb
-      format.json { render json: @question }
+    # respond_to do |format|
+    #   format.html # new.html.erb
+    #   format.json { render json: @question }
+    # end
+
+    question = { title: params[:title],
+          choice_a: params[:choice_a],
+          choice_b: params[:choice_b],
+          choice_c: params[:choice_c],
+          choice_d: params[:choice_d],
+          answer:   params[:answer]
+        }
+
+    if @topic.questions.create(question) && question[:title] != ""
+      render :text => 'Created', :status => '200'
+    else
+      render :text => 'Failed', :status => '404'
     end
   end
 
@@ -88,6 +102,8 @@ class QuestionsController < ApplicationController
   end
 
   def speak(string)
+
+    string = string[/[a-zA-Z0-9\s]*/]
 
     EM.run do
       EM.defer( proc do

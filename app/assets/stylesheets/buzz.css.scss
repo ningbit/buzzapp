@@ -110,6 +110,20 @@ button {
 #buzzer {
 	border-width: 5px;
 }
+#create {
+	float: right;
+	padding: 3vmin 0;
+	width: 20%;
+	font-size: 4vmin;
+	margin-right: 69px;
+
+	&.success{
+		background-color: $green;
+	}
+	&.fail {
+		background-color: $red;
+	}
+}
 .btn-next,
 .btn-back,
 .btn-answer {
@@ -163,7 +177,7 @@ button {
 }
 .questions {
 	position: relative;
-	margin-top: 60px;
+	margin: 60px 20px 0;
 	border-radius: 20px 5px;
 	border: 6px solid rgba(255,255,255,0.7);
 	background-color: rgba(255,255,255,0.15);
@@ -200,7 +214,7 @@ button {
 	display: none;
 	color: gold;
 	margin: 10px 0 0;
-	padding-left: 4vmin;
+	// padding-left: 4vmin;
 	font-size: 3vmin;
 	font-family: Times;
 }
@@ -213,7 +227,9 @@ button {
 	left: 0;
 	position: absolute;
 	text-align: center;
-	transform: translateY(50%);
+	top: 50%;
+	transform: translateY(-50%);
+	margin: 0;
 }
 ul {
 	padding: 0;
@@ -325,7 +341,7 @@ td {
 		float: left;
 		width: 31.33333333%;
 		margin-left: 3%;
-		font-size: 5vmin;
+		font-size: 3vmin;
 
 		&:first-child {
 			margin-left: 0;
@@ -354,10 +370,72 @@ td {
 	border-width: 3px;
 }
 
+.add-a-question {
+	max-width: 880px;
+	margin-left: 0;
+	padding-right: 20px;
+
+	label {
+		display: inline-block;
+		width: 88px;
+	}
+	input {
+		width: 700px;
+	}
+	.choice {
+		padding-left: 62px;
+		width: 26px;
+	}
+	h2 {
+		margin-bottom: 4px;
+	}
+	.optional {
+		position: relative;
+
+		&:before {
+			content: "*";
+			font-size: 20px;
+			color: gold;
+			position:absolute;
+			margin-left: -8px;
+		}
+	}
+	p.optional {
+		margin-top: 0;
+		font-size: 15px;
+	}
+
+}
+
+@media ("max-width: 850px") {
+	.add-a-question {
+		.choice {
+			padding-left: 0;
+			width: 100%;
+		}
+		input {
+			margin: 5px 0 5px;
+			width: 100%;
+		}
+	}
+
+}
+
 @media ("max-width: 600px") {
 	body {
 		font-size: 28px;
 	}
+	.add-a-question {
+		margin-top: 20px;
+		font-size: 16px;
+
+		p.optional {
+			float: right;
+			margin-bottom: 0;
+			margin-top: -23px;
+		}
+	}
+
 	header {
 		margin-bottom: 0;
 		padding-bottom: 15px;
@@ -410,10 +488,6 @@ td {
 		min-height: 200px;
 		border-width: 3px;
 	}
-	.start-message {
-		position: static;
-		margin-top: 60px;
-	}
 	.btn-next,
 	.btn-back,
 	.btn-answer {
@@ -456,6 +530,11 @@ td {
 	}
 	.right {
 		margin-right: 5%;
+	}
+	#create {
+		margin-right: 0;
+		width: 100%;
+		padding: 8vmin 0;
 	}
 
 }

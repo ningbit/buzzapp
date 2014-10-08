@@ -18,13 +18,18 @@ BuzzApp::Application.routes.draw do
 
   get '/controls', :to => 'buzz#controls'
 
+  # buzz actions
+
+  post '/buzz', :to => 'buzz#buzz'
+
+  # quiz actions
+
   get '/quiz', :to => 'quiz#index'
 
   get '/create', :to => 'quiz#create'
 
-  # buzz actions
+  post '/create', :to => 'questions#new'
 
-  post '/buzz', :to => 'buzz#buzz'
 
   # control actions
 
